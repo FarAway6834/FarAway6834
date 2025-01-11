@@ -3,5 +3,5 @@
 ## Profile Web
 작성중
 
-### [소속](https://naver.me/FRcvbxmA)
+### [소속...이었던것, 쫒겨남](https://naver.me/FRcvbxmA)
 [
