@@ -1,5 +1,6 @@
 # FarAway6834
 
+<!--
 *이상한거 만드는놈*
 
 # 곰인
@@ -49,3 +50,12 @@
 
 엄....
 ```
+-->
+
+아래 글을 재대로 피드백 받고싶어요
+
+왜냐하면, 내 생각에 모순점이 너무 많은것 같아서...
+
+철학자분들 보고있으면 부탁드립니다.
+
+[LCPC체계 구상](https://github.com/FarAway6834/unbeauty/blob/main/privateNote%2FAlkali%2F%ED%95%99%EC%9E%90%EC%A0%81_%EA%B8%B0%EC%A0%80%EC%99%80_LCPC_%EC%9B%90%EB%A6%AC.md)
