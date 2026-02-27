@@ -3,6 +3,8 @@
 내게 있어서 음성합성은 기술이 아니다. 예술가들의 손에 쥐여줄 기표를 조립하는것이다. 내가 감히 넘볼수 없는 예술의 경지를, 기술을 통해 묵묵히 띄워주고싶다.
 그래서 음성합성 이론을 만들었다.
 
+VLEM은 음성 발음의 구조를, PECM은 edit g에 대해, (◦ g)로 발음 타이밍 합성과, Putter를 이용한 셈플의 컷 등을 진행한다. 즉, 발음 기호를 오디오 함수의 기호로 보는거다.
+
 ## VLEM(Voice Lang Extension Model)와 Vocaloid as pop
 
 국제 음성 기호(International Phonetic Alphabet)의 한계로는 화자 간 변이(Inter-speaker variation)를 담지 못한다는점과, 전이음(Transitional sound)을 담지 못한다는 점, 그리고 스팩트로그램으로 관측했을때, 세부적인 조음 시점과 타이밍을 완벽하게 담지 못한다는 점이 지적된다.
