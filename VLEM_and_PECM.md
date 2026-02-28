@@ -5,6 +5,12 @@
 
 VLEM은 음성 발음의 구조를, PECM은 edit g에 대해, (◦ g)로 발음 타이밍 합성과, Putter를 이용한 셈플의 컷 등을 진행한다. 즉, 발음 기호를 오디오 함수의 기호로 보는거다.
 
+발음 기호는 솔찍히 일본어가 정배고 최고라고 생각하지만, 그래도 IPA같은 표준 기호을 사용해도 좋다. (근데 펙트는 아무 기호나 PUA에서 할당받고, 해당하는 음성을 오디오로 녹음하면 그게 Voice Lang이다.)
+
+## 형식언어 분류중 Voice Lang에 대한 팁.
+
+언어 L이 Voice Lang일 조건 : 문자가 기표고 음성에 기의인 언어 L이여야 한다
+
 ## VLEM(Voice Lang Extension Model)와 Vocaloid as pop
 
 국제 음성 기호(International Phonetic Alphabet)의 한계로는 화자 간 변이(Inter-speaker variation)를 담지 못한다는점과, 전이음(Transitional sound)을 담지 못한다는 점, 그리고 스팩트로그램으로 관측했을때, 세부적인 조음 시점과 타이밍을 완벽하게 담지 못한다는 점이 지적된다.
@@ -112,3 +118,16 @@ PECM (Put-Edit-Cor Model, ぺくむ)
 전이음을 제공했을 뿐이지, 사용은 각자에 판단에 있다. 나같으면 안쓰겠다. 내가 전이음을 사용하는건, **일반인들을 보컬로이드 시장에 참여(浸食)시키기 위해서**다. 이건 형식언어다. 모델에서 정의되었다면, 자유롭게 사용할수있다. 수학의 본질은 그 자유에 있다.
 
 으흐흐 일반인들 이쪽으로 오도록 해....
+
+## 음성기호의 대수화
+
+1. IPA Number = {.0xx~5xx = Standard IPA, .6xx~7xx = ExtIPA & VoQS, .8xx = Reserved, .9xx = Transcription Symbols} 전 대역을 IPA Number Millenium이라 명명하겠음
+2. IPA Number Millenium은 형식언어적 관점에서, Unicode Zalko마냥, 보조기호 • 초분절기호 같은 기호들을 존나 써서 음성을 근사하는 표기를 쓰는것도 타당한 행위니, TTS : IPA Number Millenium -> d⁰V/dt⁰ (시간에 대한 전압 함수) 따위의 TTS에 대해, IPA Number Millenium은 시간에 대한 전압 함수들간의 연산에 개한 범주로 가는 사상이 있고, 그러한 TTS가 기표 IPA Number Millenium에서, 기의 음성으로 가는 컴파일러이기에, 이를 추상대수학의 영역으로 보고, IPA Number Millenium Algebra라 명명하겠음
+
+이렇게 하면, IPA Number Millenium Algebra에 따라서, 음성 기호들이 발음되는 양상을 알수 있음.
+물론, 실제로 음성기호는 IPA Number Millenium에다가, Unicode Zalko마냥 근사하는건, TTS를 통해서, 미리 IPA Number Millenium로 옮긴 세부 조정 함수를 적용시키는기 나음.
+그러므로, `#pragma ZalkoHint[문자열에 적용 시작 인덱스:문자열에 적용 끝 인덱스](TTS를 통해서, 미리 IPA Number Millenium로 옮긴 세부 조정 함수)`라는 구문을 통해, Zalko를 대신하는 컴파일러 힌트를 쓰는것이 훨씬 나음.
+
+결론 : 음성기호를 사용한 발음은 Zalko를 사용하는 무개념 행위가 가능하다. (프로그래밍 언어도 nested 반복문이라는 무개념 행위가 가능하다) 그러나 현실적으로 그 자유도를 제한하는게 불가능하므로, IPA Number Millenium Alegebra를 ZalkoHint로 명시적으로 Optimize하는 엔지니어링의 영역으로 두겠음.
+
+이는 문자가 기표고 음성에 기의이므로, Voice Lang일 조건을 만족한다.
