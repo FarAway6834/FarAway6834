@@ -13,7 +13,9 @@ VLEM은 음성 발음의 구조를, PECM은 edit g에 대해, (◦ g)로 발음 
 
 ### Thevl ExtVoiceLang
 
-Thevl(L) = Voice Lang L에 "Putter" • 수식기호 • `<>`라는 기호를 추가하여, VLEM • PECM을 사용할수 있게 한 장장된 안어
+Thevl(L) = Voice Lang L에 "Putter" • 수식기호 • `<>`라는 기호를 추가하여, VLEM • PECM을 사용할수 있게 획장된 언어.
+
+참고 : thevl은 음성기호를 확장해서 확장된 또다른 음성기호로 표기한것 뿐이다. 음성기호 언어 L에 대해, thevl(L)도 음성기호 언어에 불과하다
 
 ## VLEM(Voice Lang Extension Model)와 Vocaloid as pop
 
