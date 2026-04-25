@@ -99,48 +99,45 @@ jp. usoni karamatᵛteiru atashiwa phony[fonii] (since the this part sing is sel
 jp. zouーkʰadakʰeta shitᵛeiru himitsu¹¹↗no phony[fonii] (ending)
 
 vocabulary explanation ft. hirakana
-³あたし = わたし in femininum
+ * ³あたし = わたし in femininum
 
 tip for korean
-⁴"いつ" ≈ "it's⁀u"
+ * ⁴"いつ" ≈ "it's⁀u"
 
 vocabulary explanataion ft. kanji
-¹zouka = 造花
-²zetsubouo = 絶望
-⁵yoru = 夜
-⁶te = 手
-⁷hoda = 絆
-《glyph analysis》
-絆 = 糸 +​ 半 #糸 is symbol of 因縁
-​半 = ​八 (上段) + ​牛 (下段) # it put ​八 on ​牛. and it can be interpretation as 軛
-⁸kara = 絆
-⁹iro = 色
-¹¹himitsu = 秘密
+ * ¹zouka = 造花
+ * ²zetsubouo = 絶望
+ * ⁵yoru = 夜
+ * ⁶te = 手
+ * ⁷hoda = 絆
+ * ⁸kara = 絆
+ * ⁹iro = 色
+ * ¹¹himitsu = 秘密
 
 ## explanatio of 因縁 and 絆 for western word STEM
+
+《glyph analysis》
+1. 絆 = 糸 +​ 半 #糸 is symbol of 因縁
+2. 半 = ​八 (上段) + ​牛 (下段) # it put ​八 on ​牛. and it can be interpretation as 軛
 
 WARNING : I'm not expert. I'm just high school studant of korea. I just instrest on formal language and symbol "T". This is merely my own logical justification for agreeing with the concept of Impermanence Anicca
 
 ABSTRACT : 絆 is simply red tie in subculture. but it includes 因縁
 
-si p in contextous q, ergo ex p sequitur q
-<- this is 因果
-in contextous quod ZFC Axioms / in contestous quod linear logic / in contextous lingua latina
-<- this is 假名
-UT, OMNES LOGICA NON NESSES EST.
-<- this is 無常
-Therefore, NAMIBLE This has no fixed essence but, it could be named in some thime. naming is nessessulilly coming like Ewige Wiederkunft
-<- this is 色卽是空空卽是色
-Nulla Veritas sine Conditione etque, OMNES LOGICA NON NESSES EST.
-UT, NULLA VERBUM X SINE Solisolum(獨尊)
-<- this is 因緣生起
+1. `si p in contextous q, ergo ex p sequitur q` <- this is 因果
+2. `in contextous quod ZFC Axioms / in contestous quod linear logic / in contextous lingua latina` <- this is 假名
+3. `UT, OMNES LOGICA NON NESSES EST.` <- this is 無常
+4. `Therefore, NAMIBLE This has no fixed essence but, it could be named in some thime. naming is nessessulilly coming like Ewige Wiederkunft` <- this is 色卽是空空卽是色
+5. `Nulla Veritas sine Conditione etque, OMNES LOGICA NON NESSES EST. UT, NULLA VERBUM X SINE Solisolum(獨尊)` <- this is 因緣生起
 Also 因緣's 因 means interpersonal relationships
+
 warn : this is way to undertand 因緣, not true proof. it's an explanation.
 
 ## explation of iro(色)
 
 色 is 色蘊. google it. or just see the wikipedia's Buddhism document
-色 also has mean that color or lust
+
+tips) 色 also has mean that color or lust
 
 well.. let's understand it by examples¹⁰
 
@@ -148,21 +145,21 @@ well.. let's understand it by examples¹⁰
  - Every 脚色 inevitably add its own 色彩
  - physical 脚色 is just color
  
-also, 脚色 is exactly, that mean. it's on that context. because that context is de facto definition.
-also, 色彩 in metaphysical means, color(色彩) on which context that "Every 脚色 inevitably add its own 色彩"...
+ * also, 脚色 is exactly, that mean. it's on that context. because that context is de facto definition.
+ * also, 色彩 in metaphysical means, color(色彩) on which context that "Every 脚色 inevitably add its own 色彩"...
 ...well... if you're still curious, look for answers within the Buddhist context.
 
 ¹⁰Learning a language is more effective when you use example sentences.
 
 ## for future otaku
 
-in early 21c, 夜 is has romantic nuance in world. so, please read the report that explain "the meaning of night in popular culture in Far east asia and the western world in early 21c"
+in early 21c, 夜 is has romantic nuance in western world. so, please read the report that explain "the meaning of night in popular culture in Far east asia and the western world in early 21c"
 
 ## dose context of "物の哀れ" is exist in this text?
 
 unforturally, yes.
 
-Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt (The limits of my language mean the limits of my world)
+ > Die Grenzen meiner Sprache bedeuten die Grenzen meiner Welt (The limits of my language mean the limits of my world)
 
 物の哀れ is langaugical context.
 
