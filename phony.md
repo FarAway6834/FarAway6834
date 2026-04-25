@@ -39,64 +39,64 @@ it's all.
 
 ## main analyses
 
-jp. ko–no yode⁀zouᵛka¹yori
-jp. ki.re.i.na. ha–nawa naiwa、
-jp. nazenaraba suーbetewa usode
-jp. de–ki–tairu、en. antipathy world。
-（かんそうちゅう）
-（かんそうちゅう）
-（かんそうちゅう）
-（かんそうちゅう）
-（かんそうちゅう）
-（かんそうちゅう）
-jp. zetsuᵛbouo²no amewa
-jp. a–ta–shi–no–³ ka–sao tsuite、
-jp. shimerasu⁀maeᵛgamito
-jp. kokoroᵛno⁀ri–me–n–、 jp. wazurawashiiwa
-jp. itsu⁴shika⁀koᵛtonohawa touーni ka–re-kitte (→ flow and groove is exist on this part)
-jp. kotono⁀miga⁀aᵛtashini uーre-teiru (→ flow and groove is exist on this part)
-jp. kagamini⁀uᵛtsuri⁀uso–⁀e‐gai‐te mizukarawo miushinatta "make[meiku]" (→ flow and groove is exist on this part)
-jp. paー rat para / pat para rat pat / pa (speak "paー rat para", then "pat para rat pat", then "pa")
-jp. na–zo\^na–zo\^ ka–zoe‐te a–sobimasyo
-jp. taー rat tara / tat tara rat tat / ta (speak "taー rat tara", then "tat tara rat tat", then "ta")
-jp. na\^ze na\^ze kokode **o**​r​**atte**​i​**rudesyo**​u
-jp. kantanna kotomo wakaranaiwa atashitte nandatke (since the this part sing is self-evident, there are no non-segmental symbol in this part)
-jp. soresura yoru⁵no⁀te⁶ni hoda⁷sarete "ai⁸"no yoーoni (since the this part sing is self-evident, there are no non-segmental symbol in this part)
-jp. (kieru kieru) (since the this part sing is self-evident, there are no non-segmental symbol in this part)
-jp. "sayonara"mo⁀ienu mama⁀naita phony[fonii] phony[fonii] phony[fonii] (since the this part sing is self-evident, there are no non-segmental symbol in this part)
-jp. usoni kara⁸matᵛteiru atashiwa phony[fonii] (since the this part sing is self-evident, there are no non-segmental symbol in this part)
-en. antipathy world。
-（かんそうちゅう）
-（かんそうちゅう）
-（かんそうちゅう）
-（かんそうちゅう）
-jp. itsushika⁀soᵛrano⁀nega i‐yani⁀naーria–tte
-jp. iro–no⁀mega⁀aᵛnatawo toーitei‐ru
-jp. ka\^gamini⁀uᵛtsuru⁀a–​**tashi**​w​**o**​⁀kaite
-jp. dareshimogaᵛ mimachi\^gatta "fake[feiku]"
-jp. douー\^shite "ai"nan\^te mononi muragari
-jp. sorewo\^ ho\^shiteᵛ iᵛkirunoda
-jp. kyouーmo **o\^y**​o​**iᵛde**​i\^​**ru**​ᵛ yoruno denーsyaga toorisat\^teikuᵛ
-jp. odoriakaseyo\^
-jp. paー rat para / pat para rat pat / pa (speak "paー rat para", then "pat para rat pat", then "pa")
-jp. naーzo\^naーzo\^ damashiーte⁀uᵛtaima⁀syou
-jp. taー rat tara / tat tara rat tat / ta (speak "taー rat tara", then "tat tara rat tat", then "ta")
-jp. naー\^zeᵛnaー\^zeᵛ kokoga itaᵛmunodesyou\^
-（かんそうちゅう）
-（かんそうちゅう）
-（かんそうちゅう）
-（かんそうちゅう）
-jp. sanー\^zan\^na hibiwa⁀kawaranaiᵛwaᵛー echo. 〃ー 〃ー melody. EーE♭ᵛ‐.D–
-jp. zeーtsu\^bou–\^no ame\^wa⁀yamanai\^waᵛー echo. 〃ー 〃ー melody. E♭ーEー
-jp. "sayonara"mo⁀ienu mama⁀naita phony[fonii] phony[fonii] phony[fonii]
-jp. usoni karamat\^teiru\^ ta\^.da\^.
+ - jp. ko–no yode⁀zouᵛka¹yori
+ - jp. ki.re.i.na. ha–nawa naiwa、
+ - jp. nazenaraba suーbetewa usode
+ - jp. de–ki–tairu、en. antipathy world。
+ - （かんそうちゅう）
+ - （かんそうちゅう）
+ - （かんそうちゅう）
+ - （かんそうちゅう）
+ - （かんそうちゅう）
+ - （かんそうちゅう）
+ - jp. zetsuᵛbouo²no amewa
+ - jp. a–ta–shi–no–³ ka–sao tsuite、
+ - jp. shimerasu⁀maeᵛgamito
+ - jp. kokoroᵛno⁀ri–me–n–、 jp. wazurawashiiwa
+ - jp. itsu⁴shika⁀koᵛtonohawa touーni ka–re-kitte (→ flow and groove is exist on this part)
+ - jp. kotono⁀miga⁀aᵛtashini uーre-teiru (→ flow and groove is exist on this part)
+ - jp. kagamini⁀uᵛtsuri⁀uso–⁀e‐gai‐te mizukarawo miushinatta "make[meiku]" (→ flow and groove is exist on this part)
+ - jp. paー rat para / pat para rat pat / pa (speak "paー rat para", then "pat para rat pat", then "pa")
+ - jp. na–zo\^na–zo\^ ka–zoe‐te a–sobimasyo
+ - jp. taー rat tara / tat tara rat tat / ta (speak "taー rat tara", then "tat tara rat tat", then "ta")
+ - jp. na\^ze na\^ze kokode **o**​r​**atte**​i​**rudesyo**​u
+ - jp. kantanna kotomo wakaranaiwa atashitte nandatke (since the this part sing is self-evident, there are no non-segmental symbol in this part)
+ - jp. soresura yoru⁵no⁀te⁶ni hoda⁷sarete "ai⁸"no yoーoni (since the this part sing is self-evident, there are no non-segmental symbol in this part)
+ - jp. (kieru kieru) (since the this part sing is self-evident, there are no non-segmental symbol in this part)
+ - jp. "sayonara"mo⁀ienu mama⁀naita phony[fonii] phony[fonii] phony[fonii] (since the this part sing is self-evident, there are no non-segmental symbol in this part)
+ - jp. usoni kara⁸matᵛteiru atashiwa phony[fonii] (since the this part sing is self-evident, there are no non-segmental symbol in this part)
+ - en. antipathy world。
+ - （かんそうちゅう）
+ - （かんそうちゅう）
+ - （かんそうちゅう）
+ - （かんそうちゅう）
+ - jp. itsushika⁀soᵛrano⁀nega i‐yani⁀naーria–tte
+ - jp. iro–no⁀mega⁀aᵛnatawo toーitei‐ru
+ - jp. ka\^gamini⁀uᵛtsuru⁀a–​**tashi**​w​**o**​⁀kaite
+ - jp. dareshimogaᵛ mimachi\^gatta "fake[feiku]"
+ - jp. douー\^shite "ai"nan\^te mononi muragari
+ - jp. sorewo\^ ho\^shiteᵛ iᵛkirunoda
+ - jp. kyouーmo **o\^y**​o​**iᵛde**​i\^​**ru**​ᵛ yoruno denーsyaga toorisat\^teikuᵛ
+ - jp. odoriakaseyo\^
+ - jp. paー rat para / pat para rat pat / pa (speak "paー rat para", then "pat para rat pat", then "pa")
+ - jp. naーzo\^naーzo\^ damashiーte⁀uᵛtaima⁀syou
+ - jp. taー rat tara / tat tara rat tat / ta (speak "taー rat tara", then "tat tara rat tat", then "ta")
+ - jp. naー\^zeᵛnaー\^zeᵛ kokoga itaᵛmunodesyou\^
+ - （かんそうちゅう）
+ - （かんそうちゅう）
+ - （かんそうちゅう）
+ - （かんそうちゅう）
+ - jp. sanー\^zan\^na hibiwa⁀kawaranaiᵛwaᵛー echo. 〃ー 〃ー melody. EーE♭ᵛ‐.D–
+ - jp. zeーtsu\^bou–\^no ame\^wa⁀yamanai\^waᵛー echo. 〃ー 〃ー melody. E♭ーEー
+ - jp. "sayonara"mo⁀ienu mama⁀naita phony[fonii] phony[fonii] phony[fonii]
+ - jp. usoni karamat\^teiru\^ ta\^.da\^.
 （てんちょう）
-jp. kantanna kotomo wakaranaiwa atashitte nandatke (since the this part sing is self-evident, there are no non-segmental symbol in this part)
-jp. soresura yoru⁵no⁀te⁶ni hoda⁷sarete "ai⁸"no yoーoni (since the this part sing is self-evident, there are no non-segmental symbol in this part)
-jp. (kieru kieru) (since the this part sing is self-evident, there are no non-segmental symbol in this part)
-jp. "sayonara"mo⁀mataneto⁀tsubuyaita phony[fonii] phony[fonii] phony[fonii]
-jp. usoni karamatᵛteiru atashiwa phony[fonii] (since the this part sing is self-evident, there are no non-segmental symbol in this part) (warn. not as course 1, but te↗i↘ru→ a→ta↗shi↗wa→)
-jp. zouーkʰadakʰeta shitᵛeiru himitsu¹¹↗no phony[fonii] (ending)
+ - jp. kantanna kotomo wakaranaiwa atashitte nandatke (since the this part sing is self-evident, there are no non-segmental symbol in this part)
+ - jp. soresura yoru⁵no⁀te⁶ni hoda⁷sarete "ai⁸"no yoーoni (since the this part sing is self-evident, there are no non-segmental symbol in this part)
+ - jp. (kieru kieru) (since the this part sing is self-evident, there are no non-segmental symbol in this part)
+ - jp. "sayonara"mo⁀mataneto⁀tsubuyaita phony[fonii] phony[fonii] phony[fonii]
+ - jp. usoni karamatᵛteiru atashiwa phony[fonii] (since the this part sing is self-evident, there are no non-segmental symbol in this part) (warn. not as course 1, but te↗i↘ru→ a→ta↗shi↗wa→)
+ - jp. zouーkʰadakʰeta shitᵛeiru himitsu¹¹↗no phony[fonii] (ending)
 
 vocabulary explanation ft. hirakana
  * ³あたし = わたし in femininum
