@@ -140,3 +140,34 @@
 
 ### Rhetorica
 ### Glossarium Rhetoricæ
+
+## Lingua Græce Dictionarium ad utilis Vocabulum
+
+(Scripsit xunre)
+
+## Lingua Græce Dictionarium ad Rudimenta Vocabulum
+
+(Scripsit xunre)
+
+## referance / note
+
+이부분은 xunre본인의 노트다. 이 노트에 대해 출처나 첨언을 적는곳으로, 이 노트에서 전혀 필요없는곳이기에, 제목은 라틴어가 아닌 영어로 적었다.
+에초에 제목이 라틴어였던 이유는, 라틴어가 옛날 공용어였으니까, 라틴어 화자가 이해할수 있는 어휘가 영어보다 더 형평성 있다고 생각했기에, 라틴어 화자가 이해하게 적어야 한다 생각했다.
+근데 어짜피, 이 부분은 라틴어 화자에게 보여줄 생각 없으니 이따구로 적은거다.
+
+1. note
+2. referance
+
+### note
+
+이 노트는 깃허브에 올라와있고, 내가 배우는데로 내용이 커밋을 통해 업데이트됨을 알수 있을것이다.
+
+혹시나 궁금하면, 이 링크로 접속하길 바란다 : [github.com/FarAway6834/blob.main/Rudimenta : vocabula græca.md](https://github.com/FarAway6834/FarAway6834/blob/main/Rudimenta%20%3A%20vocabula%20gr%C3%A6ca.md)
+
+뭐... 암튼 노트들이 아래에 쭉 보일거다.
+
+1. 근데 일단은 아무것도 없다.
+
+### referance
+
+아직 뭐 레퍼런스가 없는데.
