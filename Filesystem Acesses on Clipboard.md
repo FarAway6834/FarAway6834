@@ -42,6 +42,89 @@ POV : 클립보드 정보의 저장은, 사실 걍 클립보드의 문자열을 
 
 예를들어, "상태기록 및 저장 start"이런식으로 만들어놓으면, "현재 상태를 저장합니다"라면서, 저장을 뭔가 시스템마냥 진행하면 됨. 뭔가 systmic한 척하는거지.
 
+## 가장 구린 구현 예시 : 만약 json같이 문자열 형식으로 파일 시스템을 만드는 간단한 대모버전은 어떨까?
+
+요컨데 ㅈㄹ 느릴거다. 이런식으로는 만들기 싫다.
+
+앱 이름 : command board
+
+ - CommandlessMode : CommandlessButton / CommandlessCommand시 작동된다,
+ - NonCommandlessMode : 키보드 화면에서, NonCommandlessButton이 CommandlessMode일때 누를수 있기에, 그걸 누르면 이렇게 된다.
+ - ApplicationProcessBackUp : 현제 모드, 현제 실행 상태 등, 프로세스 변수 정보들을 Android/data에 저장한다.
+ - ApplicationProcessLoad : 현제 모드, 현제 실행 상태 등, 프로세스 변수 정보들을 Android/data에서 로드한다.
+ - 프로세스 변수 정보 : 벡업 안하면 저장 안되는거다.
+ - CommandEscape : "\!"시 "!"로 간주됨
+ - CommandEnable : "!cmden"이나 버튼을 통해서 이루어진다. 이게 실행되었다면, 처음에 "!"가 붙은 애들은 다 커멘드로 처리된다. 다만, 이스케이프는 예외. Commandible상태가 되게 하는것임.
+ - CommandDisable : "!cmdis"시 이루어짐. incommandible상태로 돌려놓는거다.
+ - 에플리케이션 설치시 기본값 : NonCommandlessMode에 incommandible다.
+ - isProgrammibleType : 키보드 앱에서 이 앱이 isProgrammibleExtended변수 관련 기능이 있는지 알려주는 상수
+ - showVersion : 키보드 앱 버전
+ - isProgrammibleExtended : command board programmible extension과 연결되어있는지 확인하는 플래그
+ - ProgrammibleExtend : command board programmible extension어플이 있는지 확인하고, 있다면 연결을 시도하고, 없다면 연결 실폐 로그를 낸다. (연결 시도도 실폐하면 연결 실폐 로그를 내긴 하나 에러 로그가 다르다.)
+ - isProgrammibleExtended유무 : 연결이 되면 참으로 설정하고, 아니면 거짓으로 설정한다. 즉, 이것도, 현재 상태에 대한 프로세스 변수인데, 이게 켜져야만 가능한 기능이 있다.
+ - ProgrammibeUnextend : isProgrammibleExtended에서만 동작하며, 연결을 끊는 놈이다.
+ - isEnabledCBPE : CBPE의 특정 확장이 활성화되어있는지 확인하는 놈이다.
+ - isDisabledCBPE : CBPE의 특정 확장이 비활성화되어있는지 확인하는 놈이다.
+ - isExistCBPE : 이놈은 존재성이고
+ - EnableCBPE : CBPE의 특정 확장을 활성화하는 짓이다.
+ - DisableCBPE : CBPE의 특정 확장을 비활성화하는 짓이다.
+ - ConnectCBPE : CBPE확장 어플을, CBPE가 연결하도록 지시하는 짓이다. 이러면 존재하게 된다.
+ - disconnectCBPE : CBPE확장 어플을, CBPE가 연결해제하도록 지시하는 짓이다. 이러면 존재하지 않게 된다.
+ - CBPE확장 어플 : 하나의 CBPE는 여러게의 CBPE확장을 내놓을수 있다. 그러나 여러개를 내놓는 경우, 해당 이름은 CBPE확장의 묶음 이름이지, 확장 자체이 이름이 될수 없다.
+ - CBPE확장 실행 : isProgrammibleExtended시, "!!"는 어떤 명령의 접두사가 될수 있다. "!!CBPE확장명::명령명"식으로 진행된다.
+ - using : isProgrammibleExtended시, "!using CBPE확장명"을 쓰면, "!!CBPE확장명::명령명"대신에, "!!명령명"을 쓸수 있다만, 다른 CBPE확장은 그 명령명을 더이상 못쓴다. 이것도 다 상태 태이블이 있어서 그런거다.
+ - flying : isFlying을 참으로 만든다. "!using CBPE확장명::명령명"로 명령 인자를 "!!"만으로도 사용 가능하게 만든다. 다만 명령 인자보다 명령명이 우선된다. isFlying는 이름 충돌 가능성을 염두했을때나 하는거다.
+ - unfly : flying상태를 해제한다.
+ - unusing : using을 취소한다.
+ - initalScript : CBPE확장의 initialScript를 실행한다. 해당 어플리케이션에 initialScript이 있다면 말이다.
+ - unlock : lock의 반대로, isLocked를 거짓으로 만든다. lock이 기본일지 unlock이 기본일지는, 키보드 초기 설정시에 입력받기에 뭐..... ㅋㅋ 암튼 그럼. lock상태에선 initialScript가 안되니까.
+ - superinit : 이것도 unlock시만 가능한건데, 이걸 쓰면, CBPE와 connect후 CBPE확장과 연결하여, initialScript를 실행한다.
+ - isSingleExtendedCommanded : command board가 CommandboardSingleExtendedCommand란 외부 앱이 설치되어있다면, 그 앱이 제공하는 단 하나의 명령이 정의되어있는가다.
+ - SingleExtend : 해당 단일 확장을 지시한다. lock이 거짓이여야만 가능하다. 이것도 command board초기설정시에 행해질지 정해진다.
+ - isSingleExtendible : 가능한지 여부이다. 앱이 어떤지를 아는 방법이기도 하다.
+ - !terminal : 어플리케이션의 해당 버전에서의 터미널이라는 기능으로, "!"없이 명령을 실행하는 기능 + 터미널용 명령 활성화다.
+ - !externIO : "!"명령을 외부에서 받아오는 경로 허용을 받는 기능인데.... 이건 사실, superinit을 통한 외부연결이다.
+ - !freeze : Android/data의 정보를 하나의 dump용 파일로 합친다. isFreezed를 참으로 만든다.
+ - isFreezed : 이게 참일시 가능한 명령의 수는 3가지로 한정된다.
+ - unfreeze : freeze의 역과정이다. isFreezed시만 가능하다.
+ - load : Download/CommandBoard에서 불러오는것. isFreezed시만 가능하다.
+ - dump : Download/CommandBoard에 저장하는것. isFreezed시만 가능하다.
+ - isIndevVersion : 현재 목록에 지정된건, indev이후엔 개발이 끝난다. 그렇기에, Indev인지 확인하는거다. Indev이후엔, terminal이 개발될테니. indev에서는, 여기 있는 명령어들도 안될수 있다. isIndevVersion이랑 isDemoVer는 무조건 동작하지만.
+ - isDemoVer : indev이전 버전인지 확인하는것으로, 위의 명령이 싸그리 안동작할수 있고. 어쩌면 isDemoVer만 동작할수도 있다. demo version에서만 허용되는 명령도 있다.
+ - isBeforeLuncher : command board luncher출시 이전 버전인지 여부다.
+ - runLuncher : command board luncher에게 특정 명령을 주는거다.
+
+isBeforeLuncher이후의 command board
+ - isBeforeLuncher가 거짓이라면, 런처를 통해서, 특정 버전으로 접속 가능하다.
+ - isBeforeLuncher가 참이라면, command board luncher의 before luncher컴포넌트에게 부탁하는 식으로 내부처리된다.
+
+command board luncher
+ - setCommandBoardVersion으로 설정 가능하다.
+ - downloadCommandBoardVersion로 다운로드 가능하다.
+ - deleteCommandBoardVersion로 삭제도 된다.
+ - 런처를 업데이트하면, download된 command board 버전의 목록에 최신 command board 버전이 추가된다.
+ - 앱을 업데이트해도 런처가, 이를 command board 버전 다운로드 목록에 알아서 추가한다. 앱 내에서 이를 확인하는 컴포넌트가 있기 때문이다.
+ - 런처 이후로는, 앱은 업데이트 안된체로, "버전 제공 컴포넌트"에서 저장해줄 뿐, 딱히 바뀌진 않는다.
+ - 런처 이후로는, 런처에서 버전 컴포넌트를 제공해주고, 그 컴포넌트로 접속하는데, 버전 컴포넌트는 또 앱이 아니라서 다운로드 가능하다. 사실, 버전 컴포넌트는, 다운로드된 데이터를 읽어들여서, 그 대이터를 정해진대로 다루어, 컴포넌트에 접속하는 대상에게 특정 실행결과를 주는거, 그니까 준-인터프리터일 뿐이다.
+ - 그리고 앱은, 그 컴포넌트를 실행하는 주체다. 컴포넌트 만으로는, 앱의 기능을 못흐지만,  command board는 특정 버전의 기능들에 대한 정보를 제외한 모든 특성과, 특정 버전들에 대한 정보를 어플에 반영하는걸, 컴포넌트 접근으로 이루어낸다.
+
+CommandboardRealProgramibleExtension : CBPE확장
+ - CRPESingles를 통하여, 이 확장을 실행 가능하다.
+ - 에초에 CBPE는 프로그래머블한 애를 만들때마다 CBPE확장을 앱으로 만들어야 하는데, 예는 그럴필요 없이, Luncher마냥 (그치만 런처 이전에 출시됨), CRPE용 확장이라는 데이터를 불러와서, CBPE라는 여러가지 확장을 가진 CBPE 다확장으로써 제공해주는 파격 기능이다.
+ - 에초에 이거를 연결할 필연성을 없에고자, 굳이 CBPE를 부가어플 연결용으로 만든거다.
+ 
+ ### 최대 단점
+ 
+ 그냥 OS기본 파일시스템을 쓸수있는데 이따구로 만들 이유가 없다. 저 안드로이드 앱은 그리고 초기 설정이 좀 걸린다.
+
+1. CRPE로 프로그래밍 기능을 우회설치하는거다
+2. 그러면, 내부적으로, 파일 저장 기능은, CRPE를 통해, json에딧 프로그램을 직접 코딩해야한다. 물론 누구나 할수 있는 즐거운 작업이지만, 하필, 어플 위의 스크립트에서 그지랄하는거다.
+3. 그렇다면, 이 어플리케이션이 유저에게 쪽팔리지 않게 소개 가능한 가장 구린 어플이란걸 알 수 있다.
+4. 초기 설정이라니 일단 개발자 말고 안하겠네? 뭐 상관없다. 에초에 쉘을 쓴 순간, 일반인들은 "이거 개발자 도구인가봐, 해봐야지"라며 그냥 초기 설정마저 즐길것같다. 또라이나 개발자만 남는거다.
+5. 게다가 그냥 설계 자체가, 안드로이드의 폭정을 우회하는짓밖에 하는게 없다.
+
+저 우회 할 지능으로 최적화를 했다면 최고의 어플이 나왔을탠데 ㅉㅉ
+
 ## 의의
 
 복사한계론의 메모리 한계 해법은, "클립보드를 이용한 스토리지 서비스"라는 기능으로 확장될수 있다는 의의를 가진다.
