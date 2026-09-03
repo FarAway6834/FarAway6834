@@ -103,7 +103,7 @@ SCR은 zerone와 E-zerone의 기반으로 유용하게 써먹을거라, 지금 z
 
 오늘의 추천곡 : [NEURODIVERSE](youtu.be/DCyRVr9lcZI) - (정말이지, GUMI가 이렇게나 내 취향의 노래를 부를수 있을줄이야... 상상도 못했다.)
 
-## 3. ezerone
+## 3. ezerone (n.b. 아직 편집중이다. 초안이 읽기 구리니까, 편집을 좀 할거다.)
 
 ETSed ZERONE
 
@@ -171,7 +171,7 @@ $ExtendedEndofunctorTyperCore(x) = \begin{cases} EndofunctorTyperCore(x), &(inEn
 
 M = <dom ExtendedTyping, zerok, onek, ExtendedTyping, ExtendedShitting, ExtendedCastedRealloc, Extendedbezero, Extendedbeone, ExtendedEndofunctorTyperCore, isEndofunctorTyper, isntEndofunctorTyper, undefinedOnEndofunctorTyperCore, definedOnEndofunctorTyperCore, ExtendedShit, ExtendednonShit, Extendediszero, Extendedisone, inEndofunctorTyperModelDomain, inZeroneModelDomain, isEndofunctorTyped> ∧ dom ExtendedTyping = isEndofunctorTyped ∪ inZeroneModelDomain ∪ inEndofunctorTyperModelDomain ∧ iszerone(<dom ExtendedTyping, zerok, onek, ExtendedTyping, ExtendedShitting, ExtendedCastedRealloc, Extendedbezero, Extendedbeone, ExtendedShit, ExtendednonShit, Extendediszero, Extendedisone>)
 
-#### Endofunctor Type
+#### [Endofunctor Type](xunr3.github.io/e)
 
 EndofunctorTyper : {S | S ⊆ {last(x) | iszero(x)}} ↦ ran EndofunctorTyper
 
@@ -229,7 +229,7 @@ EndofunctorTyper = EndofunctorTyperCore|_{dom EndofunctorTyper}
 
 오늘의 추천곡 : [갈채](youtu.be/qsA0eThr-6A), 말이 필요없다.
 
-## 4. OperodepredrofunctionalLang
+## 4. OperodepredrofunctionalLang (n.b. 아직 편집중이다. 초안이 읽기 구리니까, 편집을 좀 할거다.)
 
 operodepredrofunctional lang의 정의와 operodepredrodel에 대해 다루겠다.
 
