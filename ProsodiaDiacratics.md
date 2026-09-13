@@ -14,7 +14,7 @@
 4. 디아레시스 (διαλυτικά)
    - U+0308 ◌̈ (monotinic에서 διαλυτικά에 해당)
 
-코드 블럭으로
+코드 `from toolz import partial, comp;;with open("temptxt.txt", "w") as fp: fp.write(comp("\n\n".join, partial(map, comp("```\n{}\n```".format, chr, (0x0300).__add__)))(b"\x13\x14\x01\x00\x42\x45\x08"))`를 통해 코드 블럭으로 표시해줘보자면
 
 ```
 ̓
