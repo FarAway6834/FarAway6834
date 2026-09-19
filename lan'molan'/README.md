@@ -1,5 +1,6 @@
-업로드는 초기 제작으로부터 6개월 후다.
+업로드(최초 업로드일인 금일(9.19토))는 초기 제작으로부터 6개월 후다.
 
+[클릭해서 github에서 직접 보기](https://github.com/FarAway6834/FarAway6834/blob/main/lan%27molan%27%2FREADME.md)
 
 # lan'molan' a.k.a. lingua insaina (madlang)
 
