@@ -2,7 +2,7 @@
 
 <div align="right"> test </div>
 
-TIPS 4 READ <span style="float: right;"> ⋯ 5 </span>
+TIPS 4 READ <span style="float: right;"> \~ 5 </span>
 
 1. Definition of madlang and apie <p align="right"> ⋯ ...작성중... </p>
  > 1. Definition of madlang
