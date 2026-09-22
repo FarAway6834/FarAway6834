@@ -1,11 +1,7 @@
 # <div align="center"> CONTENTS </div>
 
-<div style="display: flex; justify-content: space-between; align-items: center;">
- <span> TIPS 4 READ </span>
- <span> ⋯ 5 </span>
-</div>
-
-1. Definition of madlang and apie <span style="float: right;">  </span>
+TIPS 4 READ <span style="float: right;"> ⋯ 5 </span>
+1. Definition of madlang and apie <span style="float: right;"> ⋯ ...작성중... </span>
  > 1. Definition of madlang
  > > 1. construction <span style="float: right;"> ⋯ ...작성중... </span>
  > > > ...작성중...
