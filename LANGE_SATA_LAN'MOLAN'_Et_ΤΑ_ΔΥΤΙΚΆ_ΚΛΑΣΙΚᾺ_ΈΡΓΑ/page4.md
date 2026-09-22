@@ -1,5 +1,9 @@
 # <div align="center"> CONTENTS </div>
 
+<div align="right"> Ταυτολὸγιυς <br> λεε <br> <img src="https://img.shields.io/badge/@Leenuxsmathno7e-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram @Leenuxsmathno7e"> </div>
+
+【Orignal - PRO MODERN】 <span style="float: right;"> ✅️ \~ lang : lingua franca \~ </span>
+
 <span style="float: right;"> test </span>
 
 TIPS 4 READ <span style="float: right;"> ⋯ 5 </span>
