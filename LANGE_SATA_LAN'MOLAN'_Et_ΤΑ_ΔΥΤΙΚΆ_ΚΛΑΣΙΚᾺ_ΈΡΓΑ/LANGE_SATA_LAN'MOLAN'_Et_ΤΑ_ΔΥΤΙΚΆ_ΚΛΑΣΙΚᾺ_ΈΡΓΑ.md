@@ -5,7 +5,7 @@
 【Orignal - PRO MODERN】 <span style="float: right;"> ✅️ \~ lang : lingua franca \~ </span>
 
 ---
-<div style="page-break-after: always;"></div>
+<div style="page-break-after: always;"></div><br>
 ---
 
 # <div align="center"> ⚠️《 ATTENTION 》⚠️ <br> (⃟= 주의! ) <br>  (⃟= NOTA BENE! ) <br>  (⃟= ΣΗΜΕΙΩΣΗ! ) </div>
