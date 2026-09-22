@@ -12,7 +12,7 @@ page 1 (앞표지)
 
 page 2 (앞표지 뒷면)
 
-```
+```markdown
 # <div align="center"> ⚠️《 ATTENTION 》⚠️ <br> (⃟= 주의! ) <br>  (⃟= NOTA BENE! ) <br>  (⃟= ΣΗΜΕΙΩΣΗ! ) </div>
 
 The origina version of 『lange sata lan'molan' Et ΤΑ ΔΥΤΙΚΆ ΚΛΑΣΙΚΆ ΈΡΓΑ』 is a modern book — that is also read by modern people. since the linguistic hegemony of the periphrial empire of the Duke of Normandy is stronger than that "Blue Country" — which raised the white flag, and subsequently the red flag back in 1871 —, Publishing in the modern linuga frannca is best path for the readers. Modern times and that language is tracky and inducstrial. if you want ethos, just read premium version - Pro Renassiance ; which for cultured, or read REMIX Version - Pro Antiquitas Ver
@@ -22,7 +22,7 @@ The origina version of 『lange sata lan'molan' Et ΤΑ ΔΥΤΙΚΆ ΚΛΑΣΙ�
 
 page 3 (면지 앞면)
 
-```
+```markdown
 # <div align="center"> LANGE <br> SATA <br> LAN'MOLAN' <br> Et <br> ΤΑ ΔΥΤΙΚΆ <br> ΚΛΑΣΙΚᾺ ΈΡΓΑ </div>
 
 <div align="right"> Ταυτολὸγιυς λεε <br> <img src="https://img.shields.io/badge/@Leenuxsmathno7e-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram @Leenuxsmathno7e"> </div>
@@ -31,7 +31,7 @@ page 3 (면지 앞면)
 ```
 
 page 4 (면지 뒷면)
-```
+```markdown
 # <div align="center"> CONTENTS </div>
 
  TIPS 4 READ
