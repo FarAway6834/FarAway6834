@@ -1,5 +1,7 @@
 # <div align="center"> CONTENTS </div>
 
+> <div style="display: flex; justify-content: space-between; width: 100%;"><span>1. blabla</span><span>⋯ 1</span></div>
+
 TIPS 4 READ <span style="display: inline-flex; width: calc(100% - 100px); justify-content: flex-end;"> ⋯ 5 </span>
 1. Definition of madlang and apie <span style="float: right;"> ⋯ ...작성중... </span>
  > 1. Definition of madlang
