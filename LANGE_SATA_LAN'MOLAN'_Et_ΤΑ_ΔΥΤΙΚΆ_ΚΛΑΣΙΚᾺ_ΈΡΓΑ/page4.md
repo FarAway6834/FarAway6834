@@ -5,12 +5,12 @@
  > 1. Definition of madlang
  > > 1. construction
  > > > ...작성중...
- > > 
+ > > > 
  > > ◦
  > > 
  > > 2. Explanation
  > > > ...작성중...
- > > 
+ > > >  
  > > ◦
  > > 
  > ◦
@@ -18,7 +18,7 @@
  > 2. Definition of APIE
  > > 1. construction
  > > > ...작성중...
- > > 
+ > > > 
  > > ◦
  > > 
  > > 2. Explanation
