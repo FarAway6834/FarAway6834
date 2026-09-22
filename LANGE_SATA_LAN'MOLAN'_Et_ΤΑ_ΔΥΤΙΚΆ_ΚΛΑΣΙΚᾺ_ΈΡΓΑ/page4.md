@@ -1,6 +1,6 @@
 # <div align="center"> CONTENTS </div>
 
-TIPS 4 READ <span align="right"> ⋯ 5 </span>
+TIPS 4 READ <div> style="display: inline-block; float: right;" ⋯ 5 </div>
 1. Definition of madlang and apie <span style="float: right;"> ⋯ ...작성중... </span>
  > 1. Definition of madlang
  > > 1. construction <span style="float: right;"> ⋯ ...작성중... </span>
