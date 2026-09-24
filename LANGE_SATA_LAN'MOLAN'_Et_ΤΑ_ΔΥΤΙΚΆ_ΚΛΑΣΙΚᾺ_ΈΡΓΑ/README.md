@@ -107,4 +107,11 @@ without any explanation. formulas are formal language, not native language. it's
 page7 (내지 3)
 
 ```markdown
+(FINIS TARTUM ETHICA). It becomes tangible. A conc­eptual substance. the conceptual object is just shadow of it. Metaphorically speaking, conceptual substance is the archetype of conceptual object. so, actually math­matical symbol for tool is actually conce­ptual substance, not conceptual obj­ect. so, conceptual object is just usage of context of using conceptual substance. conceptual object is diffrent on diffrent usage even it's a same conceptual substance. therefore, in this book, mathmatical symbol for tool is used, and used as  conceptual object and it non-sequitur that conceptual object aren't concep­tual substance, and also it's an code of many concept that it can be. it's an stem cells of mathematical concepts. Through informal concepts, its scope is not limited—not even by idiomatic usage.
+ therefore, the mathamathical concept — which use on this book, isn't good fo­mula. but it's usefull code. Anyway, back to the point. this book is adopt an development of fundamental
+```
+
+page8 (내지 4)
+
+```markdown
 ```
