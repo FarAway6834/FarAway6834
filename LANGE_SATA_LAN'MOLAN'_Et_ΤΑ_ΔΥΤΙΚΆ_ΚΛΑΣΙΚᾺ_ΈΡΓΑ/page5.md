@@ -1,6 +1,6 @@
 # Tips 4 Read
 
-<div align="center"> Excluding unnecessary rhetoric, especially that meant for pretige <br> but only filled with "emolange" </div>
+<small> <div align="center"> Excluding unnecessary rhetoric, especially that meant for pretige <br> but only filled with "emolange" </div> </small> 
 
 - - - - - - - - - - - - - - - - - - - - - - - -
 
