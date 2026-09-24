@@ -5,4 +5,4 @@ The origina version of 『lange sata lan'molan' Et ΤΑ ΔΥ­ΤΙΚΆ ΚΛΑΣ�
 # <div align="center"> ※ This Book Is Written By English ※ <br> ※ 이 책은 영어로 작성되었습니다 ※ <br> ※ LINGUA HUIUS LIBRI ANGLICA EST ※ <br> ※ Ἡ ταῦδε ταῦ βιβλὶου γλῶττα Ἀγγλικὴ ἐστιν ※ </div>
 
 ---
-<div align="right" style="font-size: 4pt; color: #aaaaaa; margin-top: 50px;"> - 2 - </div>
+<sub> - 2 - </sub>
