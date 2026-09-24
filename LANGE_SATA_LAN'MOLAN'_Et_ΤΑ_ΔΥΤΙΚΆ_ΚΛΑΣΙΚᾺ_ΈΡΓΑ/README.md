@@ -296,3 +296,11 @@ TIPS 4 READ <span style="float: right;"> ⋯ 5 </span>
 
 <sub> 8 </sub>
 ```
+
+## edit : tips끝에 아래 주의를 붙이도록 하자
+
+```
+n.b. "concepture substance" is philosophical concept.
+
+by using mathematical concept as code, tool became "concepture substance" (this is def of this word), and it lead us to believe "FINIS" is exist. for example, the "matter which constructed as that Scissor on the table" is substance, but Representional Illusion(Ontological Illusion) that have attribute that "(Technical) End of Scissor" is "concepture substance" SCISSOR. i.e. Without the task of explanations and formalizing expressions to suit their original purpose, laziness allows the "use as code" of expressions. Code can use for out-of-purpose
+```
