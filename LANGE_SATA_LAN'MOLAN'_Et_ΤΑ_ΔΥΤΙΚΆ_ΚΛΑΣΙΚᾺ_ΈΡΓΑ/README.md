@@ -1,6 +1,8 @@
 # lange sata lan'molan' et τα δυτικά κλασικὰ έργα
 
-tips : 종이책은 그냥 세븐일레븐에서 산 스프링노트에 적었고, 이건 그 스프링노트를 그저 마크다운으로 옮긴것 뿐이다.
+tips 1 : 원본은 세븐일레븐에서 구매한 노트에다가 자필로 적었다.
+tips 2 : 이 버전은 markdown version임. 원본을 마크다운으로 옮긴거임.
+tips 3 : 그 원본을 스케너로 스켄한게 Orignal Spring-note Pdf-version임.
 
 page 1 (앞표지)
 
