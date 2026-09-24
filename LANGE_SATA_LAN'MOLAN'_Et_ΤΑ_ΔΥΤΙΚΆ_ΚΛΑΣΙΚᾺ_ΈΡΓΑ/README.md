@@ -31,7 +31,7 @@ page 3 (면지 앞면)
 
 【Orignal - PRO MODERN】 <span style="float: right;"> ✅️ \~ lang : lingua franca \~ </span>
 
-<div align="right"><sub> 3 </sub><div>
+<div align="right"><sub> 3 </sub></div>
 ```
 
 page 4 (면지 뒷면)
@@ -102,7 +102,7 @@ page 5 (내지 1p)
 <p> Since this book intends only to be a linguistic guide through repeated, decontextualized for­mal definitions, and seeks no deeper implication be­yond a bare formal commentary—the book is cr­afted to be as formal as possible; however, for a lay yet honorable citizenry, much like the Greek demos, the language chosen is rooted in natural linguistic capacity. </p>
 <p> good formulas resonate on their own,  </p>
 
-<div align="right"><sub> 5 </sub><div>
+<div align="right"><sub> 5 </sub></div>
 ```
 
 page6 (내지 2p)
@@ -120,7 +120,7 @@ page7 (내지 3p)
 (FINIS TARTUM ETHICA). It becomes tangible. A conc­eptual substance. the conceptual object is just shadow of it. Metaphorically speaking, conceptual substance is the archetype of conceptual object. so, actually math­matical symbol for tool is actually conce­ptual substance, not conceptual obj­ect. so, conceptual object is just usage of context of using conceptual substance. conceptual object is diffrent on diffrent usage even it's a same conceptual substance. therefore, in this book, mathmatical symbol for tool is used, and used as  conceptual object and it non-sequitur that conceptual object aren't concep­tual substance, and also it's an code of many concept that it can be. it's an stem cells of mathematical concepts. Through informal concepts, its scope is not limited—not even by idiomatic usage.
  therefore, the mathamathical concept — which use on this book, isn't good fo­mula. but it's usefull code. Anyway, back to the point. this book is adopt an development of fundamental
 
-<div align="right"><sub> 7 </sub><div>
+<div align="right"><sub> 7 </sub></div>
 ```
 
 page8 (내지 4p)
