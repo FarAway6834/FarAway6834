@@ -1,3 +1,5 @@
 <p> definition and explanation, and also,​ as volum 1.1.1 and volum 1.2.1, it​ just an mathmatical concept, so that​ people that can though in near-purly​ mathmatics with predicatal voca​ can understand clearly (All along,​ this book is not Beginner's Guide, For­mal and Scholarly Edition). so for​ read this book, should be like​ this ; — study math fucking ha­rdcore, and just dip your toes​ into Latin and Greek </p>
 
-...아직 작성중 (tips4read 中 who is book for 完, 나머지 tip필요.)...
+...아직 작성중 (tips4read 中 who is book for 完, tips4read에 나머지 tip들 필요.)...
+
+<sub> 8 </sub>
