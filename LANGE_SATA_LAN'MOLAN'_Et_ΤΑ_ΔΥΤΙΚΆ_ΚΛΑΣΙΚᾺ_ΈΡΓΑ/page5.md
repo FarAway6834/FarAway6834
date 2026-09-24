@@ -9,4 +9,4 @@
 <p> Since this book intends only to be a linguistic​ guide through repeated, decontextualized for­mal definitions, and seeks no deeper implication be­yond a bare formal commentary—the book is cr­afted to be as formal as possible; however, for a lay yet​ honorable citizenry, much like the Greek demos,​ the language chosen is rooted in natural​ linguistic capacity. </p>
 <p> good formulas resonate on their own,  </p>
 
-<div align="right"><sub> 5 </sub><div>
+<div align="right"><sub> 5 </sub></div>
