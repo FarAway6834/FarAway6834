@@ -108,3 +108,12 @@ TIPS 4 READ <span style="float: right;"> ⋯ 5 </span>
 
 without any explanation. formulas are formal language, not native language. it's unsatiablement in ma­thmatical philosophy that the pathological readiblity-fetish of "fat, ill and old mathm­etical academia", but academia had inter­preting form x to form y by natural-languagi­cal explanation. damb. that's not formalized math symbol. because x is not main format. it just non-unveiled form. because the pa­per dealt with y, not x, therefore; implictic-intuition which form with natual language is not fomular or mathematical discovery, it just natural intuition of definition of concept, idea of proof and exploration of mathematical exp­ressions. you know? this is ill and old probelm. aren't think so? then, how about z? which — not interprete to y, but x implies it like y. x is not y. x is just bounded in natural-lin­guistic context with y.
  but in coding, code has a purpose. it's because it is not just code. it's an tool — of Engineering. so, code has a purpose. and purpose is isomorphic with class of models of theory "pu­rpose", so, purpose just define only a subset of features, and isomorphic with subset, also, model. — it exist as ontologically, natural linguistically not fact nor actual intangible.
+
+---
+
+<div style="page-break-after: always;"></div>
+
+---
+
+(FINIS TARTUM ETHICA). It becomes tangible. A conc­eptual substance. the conceptual object is just shadow of it. Metaphorically speaking, conceptual substance is the archetype of conceptual object. so, actually math­matical symbol for tool is actually conce­ptual substance, not conceptual obj­ect. so, conceptual object is just usage of context of using conceptual substance. conceptual object is diffrent on diffrent usage even it's a same conceptual substance. therefore, in this book, mathmatical symbol for tool is used, and used as  conceptual object and it non-sequitur that conceptual object aren't concep­tual substance, and also it's an code of many concept that it can be. it's an stem cells of mathematical concepts. Through informal concepts, its scope is not limited—not even by idiomatic usage.
+ therefore, the mathamathical concept — which use on this book, isn't good fo­mula. but it's usefull code. Anyway, back to the point. this book is adopt an development of fundamental
