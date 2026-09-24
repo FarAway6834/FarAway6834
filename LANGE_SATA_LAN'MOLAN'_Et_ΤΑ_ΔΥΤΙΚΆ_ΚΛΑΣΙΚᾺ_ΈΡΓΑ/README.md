@@ -149,6 +149,14 @@ page8 (내지 4p)
 8. write vol 2.3.  ⋯ ... not started yet ...
 9. write vol 2.4.  ⋯ ... not started yet ...
 
+### edit : tips끝에 아래 주의를 붙이도록 하자
+
+```
+n.b. "concepture substance" is philosophical concept.
+
+by using mathematical concept as code, tool became "concepture substance" (this is def of this word), and it lead us to believe "FINIS" is exist. for example, the "matter which constructed as that Scissor on the table" is substance, but Representional Illusion(Ontological Illusion) that have attribute that "(Technical) End of Scissor" is "concepture substance" SCISSOR. i.e. Without the task of explanations and formalizing expressions to suit their original purpose, laziness allows the "use as code" of expressions. Code can use for out-of-purpose
+```
+
 ## Integrated Document Version
 
 ```markdown
@@ -295,12 +303,4 @@ TIPS 4 READ <span style="float: right;"> ⋯ 5 </span>
 ...아직 작성중 (tips4read 中 who is book for 完, tips4read에 나머지 tip들 필요.)...
 
 <sub> 8 </sub>
-```
-
-## edit : tips끝에 아래 주의를 붙이도록 하자
-
-```
-n.b. "concepture substance" is philosophical concept.
-
-by using mathematical concept as code, tool became "concepture substance" (this is def of this word), and it lead us to believe "FINIS" is exist. for example, the "matter which constructed as that Scissor on the table" is substance, but Representional Illusion(Ontological Illusion) that have attribute that "(Technical) End of Scissor" is "concepture substance" SCISSOR. i.e. Without the task of explanations and formalizing expressions to suit their original purpose, laziness allows the "use as code" of expressions. Code can use for out-of-purpose
 ```
