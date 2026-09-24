@@ -18,6 +18,8 @@ page 2 (앞표지 뒷면)
 The origina version of 『lange sata lan'molan' Et ΤΑ ΔΥ­ΤΙΚΆ ΚΛΑΣΙΚΆ ΈΡΓΑ』 is a modern book — that is also read by modern people. since the linguis­tic hegemony of the periphrial empire of the Du­ke of Normandy is stronger than that "Blue Country" — which raised the white flag, and subsequently the red flag back in 1871 —, Publishing in the modern linuga franca is best path for the readers. Modern times and that language is tracky and inducstrial. if you want ethos, just read premium version - Pro Renassiance; which for cultured, or read REMIX Version - Pro Antiquitas Ver.
 
 # <div align="center"> ※ This Book Is Written By English ※ <br> ※ 이 책은 영어로 작성되었습니다 ※ <br> ※ LINGUA HUIUS LIBRI ANGLICA EST ※ <br> ※ Ἡ ταῦδε ταῦ βιβλὶου γλῶττα Ἀγγλικὴ ἐστιν ※ </div>
+
+<sub> 2 </sub>
 ```
 
 page 3 (면지 앞면)
@@ -28,58 +30,62 @@ page 3 (면지 앞면)
 <div align="right"> Ταυτολὸγιυς λεε <br> <img src="https://img.shields.io/badge/@Leenuxsmathno7e-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram @Leenuxsmathno7e"> </div>
 
 【Orignal - PRO MODERN】 <span style="float: right;"> ✅️ \~ lang : lingua franca \~ </span>
+
+<div align="right"><sub> 3 </sub><div>
 ```
 
 page 4 (면지 뒷면)
 ```markdown
 # <div align="center"> CONTENTS </div>
 
- TIPS 4 READ
-1. Definition of madlang and apie
+TIPS 4 READ <span style="float: right;"> ⋯ 5 </span>
+1. Definition of madlang and apie <p align="right"> ⋯ ...작성중... </p>
  > 1. Definition of madlang
- > > 1. construction
+ > > 1. construction <span style="float: right;"> ⋯ ...작성중... </span>
  > > > ...작성중...
  > > > 
  > > ◦
  > > 
- > > 2. Explanation
+ > > 2. Explanation <span style="float: right;"> ⋯ ...작성중... </span>
  > > > ...작성중...
  > > >  
  > > ◦
  > > 
  > ◦
  > 
- > 2. Definition of APIE
- > > 1. construction
+ > 2. Definition of APIE <span style="float: right;"> ⋯ ...작성중... </span>
+ > > 1. construction <span style="float: right;"> ⋯ ...작성중... </span>
  > > > ...작성중...
  > > > 
  > > ◦
  > > 
- > > 2. Explanation
+ > > 2. Explanation <span style="float: right;"> ⋯ ...작성중... </span>
  > > > ...작성중...
  > > > 
  ◦ ◦ ◦
 
-2. <div> Definition of lange sata lan'molan' Et <br> ΤΑ ΔΥΤΙΚΆ ΚΛΣΙΚΆ ΈΡΓΑ <div>
- > 1. Definition of lange sata lan'molan' Et APIE
+2. <div> Definition of lange sata lan'molan' Et <br> ΤΑ ΔΥΤΙΚΆ ΚΛΣΙΚΆ ΈΡΓΑ <div> <span style="float: right;"> ⋯ ...작성중... </span>
+ > 1. Definition of lange sata lan'molan' Et APIE <span style="float: right;"> ⋯ ...작성중... </span>
  > > ...작성중...
  > > 
  > ◦
  > 
- > 2. Definition of lange sata lan'molan' Et Lingua Latina
+ > 2. Definition of lange sata lan'molan' Et Lingua Latina <span style="float: right;"> ⋯ ...작성중... </span>
  > > ...작성중...
  > > 
  > ◦
  > 
- > 3. Definition of lange sata lan'molan' Et Ἑλληνικα
+ > 3. Definition of lange sata lan'molan' Et Ἑλληνικα <span style="float: right;"> ⋯ ...작성중... </span>
  > > ...작성중...
  > > 
  > ◦
  > 
- > 4. <div> Definition of lange sata lan'molan' Et <br> ΤΑ ΔΥΤΙΚΆ ΚΛΣΙΚΆ ΈΡΓΑ <div>
+ > 4. <div> Definition of lange sata lan'molan' Et <br> ΤΑ ΔΥΤΙΚΆ ΚΛΣΙΚΆ ΈΡΓΑ <div> <span style="float: right;"> ⋯ ...작성중... </span>
  > > ...작성중...
  > > 
- ◦ ◦
+ ◦ ◦                        
+
+<sub> 4 </sub>
 ```
 
 page 5 (내지 1p)
@@ -95,6 +101,8 @@ page 5 (내지 1p)
 <p> In Volume 1.1, the language is an extension of model-theoretic language of mad-gramm­ar theory via English; in Volumes 1.2 to 2.2, it transitions to lan'molan' which utilizes it. In Volume 2.3, the language is lan'm­olan' using either Latin or Apie; and finally, in Volume 2.4, it is lan'molan' using Latin, Apie, and Ἑλληνικά. </p>
 <p> Since this book intends only to be a linguistic guide through repeated, decontextualized for­mal definitions, and seeks no deeper implication be­yond a bare formal commentary—the book is cr­afted to be as formal as possible; however, for a lay yet honorable citizenry, much like the Greek demos, the language chosen is rooted in natural linguistic capacity. </p>
 <p> good formulas resonate on their own,  </p>
+
+<div align="right"><sub> 5 </sub><div>
 ```
 
 page6 (내지 2p)
@@ -102,6 +110,8 @@ page6 (내지 2p)
 ```markdown
 without any explanation. formulas are formal language, not native language. it's unsatiablement in ma­thmatical philosophy that the pathological readiblity-fetish of "fat, ill and old mathm­etical academia", but academia had inter­preting form x to form y by natural-languagi­cal explanation. damb. that's not formalized math symbol. because x is not main format. it just non-unveiled form. because the pa­per dealt with y, not x, therefore; implictic-intuition which form with natual language is not fomular or mathematical discovery, it just natural intuition of definition of concept, idea of proof and exploration of mathematical exp­ressions. you know? this is ill and old probelm. aren't think so? then, how about z? which — not interprete to y, but x implies it like y. x is not y. x is just bounded in natural-lin­guistic context with y.
  but in coding, code has a purpose. it's because it is not just code. it's an tool — of Engineering. so, code has a purpose. and purpose is isomorphic with class of models of theory "pu­rpose", so, purpose just define only a subset of features, and isomorphic with subset, also, model. — it exist as ontologically, natural linguistically not fact nor actual intangible.
+
+<sub> 6 </sub>
 ```
 
 page7 (내지 3p)
@@ -109,6 +119,8 @@ page7 (내지 3p)
 ```markdown
 (FINIS TARTUM ETHICA). It becomes tangible. A conc­eptual substance. the conceptual object is just shadow of it. Metaphorically speaking, conceptual substance is the archetype of conceptual object. so, actually math­matical symbol for tool is actually conce­ptual substance, not conceptual obj­ect. so, conceptual object is just usage of context of using conceptual substance. conceptual object is diffrent on diffrent usage even it's a same conceptual substance. therefore, in this book, mathmatical symbol for tool is used, and used as  conceptual object and it non-sequitur that conceptual object aren't concep­tual substance, and also it's an code of many concept that it can be. it's an stem cells of mathematical concepts. Through informal concepts, its scope is not limited—not even by idiomatic usage.
  therefore, the mathamathical concept — which use on this book, isn't good fo­mula. but it's usefull code. Anyway, back to the point. this book is adopt an development of fundamental
+
+<div align="right"><sub> 7 </sub><div>
 ```
 
 page8 (내지 4p)
