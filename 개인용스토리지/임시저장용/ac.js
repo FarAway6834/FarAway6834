@@ -151,7 +151,7 @@ class AutoComplete extends HTMLElement {
 			}
 		}));
 
-		defaultlistArray2object = (v => {
+		const defaultlistArray2object = (v => {
 			//pass
 			throw new Error("IndevError : incomplete to developed feature");
 		});
@@ -225,6 +225,8 @@ customElements.define("auto-complete", AutoComplete);
 
 const as_webcode = (_ => console.log('<script src="https://xunr3.github.io/ac.js" fetchpriority="high" />'));
 
+/*
 FUCKFUCKFUCKFUCKFUCKFUCKFUCKFUCKFUKCFUCKFKUCKIUKIUFCKUKFKCUJJFCCJIFODSJCIEshdgoi
 
 const as_shortcode = (_ => console.log(`<script src="data:text/javascript;base64,${SRC}" fetchpriority="high" />`));
+*/
