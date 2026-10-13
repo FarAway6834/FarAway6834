@@ -16,6 +16,13 @@
         #check-markup:not(:checked) ~ #check-process {
           animation : makeUncheck 0.1s
         }
+        #check-markup:has(~ #check-process:chekced) {
+           background-color : #f0f0f0
+        }
+        
+        #check-markup:has(~ #check-process:not(:checked)) {
+            background-color : #ffffff
+        }
       </style>
       <input type="checkbox" id="check-markup" name="checkbox">
       <anime-input id="check-process"></anime-input>
