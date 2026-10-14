@@ -9,12 +9,12 @@
     <fieldset id="not-gate">
       <legend> not gate </legend>
       <style>
+        #not-gate-ouput {
+          background-color: yellow;
+        }
+        
         #not-gate-input:checked + #not-gate-ouput {
           background-color: gray;
-        }
-
-        #not-gate-input:not(:checked) + #not-gate-ouput {
-          background-color: yellow;
         }
       </style>
       <input type="checkbox" id="not-gate-input">
