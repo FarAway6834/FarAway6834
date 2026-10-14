@@ -8,6 +8,15 @@
     <h1> af logic gates </h1>
     <fieldset id="not-gate">
       <legend> not gate </legend>
+      <style>
+        #not-gate-input:checked + #not-gate-ouput {
+          background-color: gray;
+        }
+
+        #not-gate-input:not(:checked) + #not-gate-ouput {
+          background-color: yellow;
+        }
+      </style>
       <input type="checkbox" id="not-gate-input">
       <fieldset style="width: 20px; height: 20px; display: inline-block;" id="not-gate-output"></fieldset>
     </fieldset>
