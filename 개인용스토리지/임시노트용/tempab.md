@@ -1,19 +1,19 @@
 class AnimeFrameworkBoxExtension extends HTMLElement {
-	static #isAnimeFrameworkLoaded = false;
-	#break_orderd = true;
-	
-	constructor() {
-		super();
-		if (AnimeFramework.#isAnimeFrameworkLoaded) {
-			throw new Error("[AnimeFrameworkBoxExtension Error] <anime-framework-box-extension> component can loaded only once.");
-		}
-		AnimeFramework.#isAnimeFrameworkLoaded = true;
-		this.#break_orderd = false;
-	}
-	
-	connectedCallback() {
-		if (this.#break_orderd) return;
-		this.innerHTML = `
+	  static #isAnimeFrameworkLoaded = false;
+	  #break_orderd = true;
+
+  	constructor() {
+	    	super();
+		    if (AnimeFramework.#isAnimeFrameworkLoaded) {
+			      throw new Error("[AnimeFrameworkBoxExtension Error] <anime-framework-box-extension> component can loaded only once.");
+		    }
+		    AnimeFramework.#isAnimeFrameworkLoaded = true;
+		    this.#break_orderd = false;
+	  }
+    
+	  connectedCallback() {
+		    if (this.#break_orderd) return;
+		    this.innerHTML = `
 <style>
 	@import url("https://xunr3.github.io/ab.css");
 
@@ -27,10 +27,10 @@ class AnimeFrameworkBoxExtension extends HTMLElement {
 		user-select: none !important;
 	}
 </style>
-		`;
-		
-		customElements.define('anime-box', AnimeBox);
-	}
+		    `;
+
+    		customElements.define('anime-box', AnimeBox);
+	  }
 }
 
 customElements.define('anime-framework-box-extension', AnimeFrameworkBoxExtension);
