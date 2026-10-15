@@ -1,0 +1,3600 @@
+
+      .wps-w0:has(.wps-w0-i0[checked]) .wps-w0-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i0:not([checked])) .wps-w0-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i0[checked]) .wps-p0-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i0:not([checked])) .wps-p0-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i0[checked]) .wps-w1-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i0:not([checked])) .wps-w1-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i0[checked]) .wps-p1-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i0:not([checked])) .wps-p1-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i0[checked]) .wps-w2-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i0:not([checked])) .wps-w2-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i0[checked]) .wps-p2-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i0:not([checked])) .wps-p2-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i0[checked]) .wps-w3-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i0:not([checked])) .wps-w3-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i0[checked]) .wps-p3-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i0:not([checked])) .wps-p3-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i0[checked]) .wps-w4-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i0:not([checked])) .wps-w4-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i0[checked]) .wps-p4-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i0:not([checked])) .wps-p4-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i0[checked]) .wps-w5-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i0:not([checked])) .wps-w5-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i0[checked]) .wps-p5-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i0:not([checked])) .wps-p5-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i0[checked]) .wps-w6-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i0:not([checked])) .wps-w6-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i0[checked]) .wps-p6-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i0:not([checked])) .wps-p6-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i0[checked]) .wps-w7-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i0:not([checked])) .wps-w7-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i0[checked]) .wps-p7-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i0:not([checked])) .wps-p7-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i0[checked]) .wps-w8-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i0:not([checked])) .wps-w8-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i0[checked]) .wps-p8-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i0:not([checked])) .wps-p8-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i0[checked]) .wps-w9-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i0:not([checked])) .wps-w9-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i0[checked]) .wps-p9-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i0:not([checked])) .wps-p9-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i0[checked]) .wps-w10-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i0:not([checked])) .wps-w10-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i0[checked]) .wps-p10-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i0:not([checked])) .wps-p10-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i0[checked]) .wps-w11-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i0:not([checked])) .wps-w11-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i0[checked]) .wps-p11-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i0:not([checked])) .wps-p11-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i0[checked]) .wps-w12-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i0:not([checked])) .wps-w12-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i0[checked]) .wps-p12-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i0:not([checked])) .wps-p12-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i0[checked]) .wps-w13-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i0:not([checked])) .wps-w13-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i0[checked]) .wps-p13-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i0:not([checked])) .wps-p13-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i0[checked]) .wps-w14-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i0:not([checked])) .wps-w14-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i0[checked]) .wps-p14-o0 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i0:not([checked])) .wps-p14-o0 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i1[checked]) .wps-w0-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i1:not([checked])) .wps-w0-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i1[checked]) .wps-p0-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i1:not([checked])) .wps-p0-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i1[checked]) .wps-w1-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i1:not([checked])) .wps-w1-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i1[checked]) .wps-p1-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i1:not([checked])) .wps-p1-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i1[checked]) .wps-w2-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i1:not([checked])) .wps-w2-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i1[checked]) .wps-p2-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i1:not([checked])) .wps-p2-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i1[checked]) .wps-w3-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i1:not([checked])) .wps-w3-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i1[checked]) .wps-p3-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i1:not([checked])) .wps-p3-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i1[checked]) .wps-w4-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i1:not([checked])) .wps-w4-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i1[checked]) .wps-p4-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i1:not([checked])) .wps-p4-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i1[checked]) .wps-w5-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i1:not([checked])) .wps-w5-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i1[checked]) .wps-p5-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i1:not([checked])) .wps-p5-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i1[checked]) .wps-w6-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i1:not([checked])) .wps-w6-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i1[checked]) .wps-p6-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i1:not([checked])) .wps-p6-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i1[checked]) .wps-w7-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i1:not([checked])) .wps-w7-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i1[checked]) .wps-p7-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i1:not([checked])) .wps-p7-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i1[checked]) .wps-w8-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i1:not([checked])) .wps-w8-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i1[checked]) .wps-p8-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i1:not([checked])) .wps-p8-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i1[checked]) .wps-w9-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i1:not([checked])) .wps-w9-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i1[checked]) .wps-p9-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i1:not([checked])) .wps-p9-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i1[checked]) .wps-w10-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i1:not([checked])) .wps-w10-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i1[checked]) .wps-p10-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i1:not([checked])) .wps-p10-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i1[checked]) .wps-w11-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i1:not([checked])) .wps-w11-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i1[checked]) .wps-p11-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i1:not([checked])) .wps-p11-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i1[checked]) .wps-w12-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i1:not([checked])) .wps-w12-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i1[checked]) .wps-p12-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i1:not([checked])) .wps-p12-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i1[checked]) .wps-w13-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i1:not([checked])) .wps-w13-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i1[checked]) .wps-p13-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i1:not([checked])) .wps-p13-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i1[checked]) .wps-w14-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i1:not([checked])) .wps-w14-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i1[checked]) .wps-p14-o1 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i1:not([checked])) .wps-p14-o1 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i2[checked]) .wps-w0-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i2:not([checked])) .wps-w0-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i2[checked]) .wps-p0-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i2:not([checked])) .wps-p0-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i2[checked]) .wps-w1-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i2:not([checked])) .wps-w1-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i2[checked]) .wps-p1-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i2:not([checked])) .wps-p1-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i2[checked]) .wps-w2-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i2:not([checked])) .wps-w2-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i2[checked]) .wps-p2-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i2:not([checked])) .wps-p2-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i2[checked]) .wps-w3-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i2:not([checked])) .wps-w3-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i2[checked]) .wps-p3-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i2:not([checked])) .wps-p3-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i2[checked]) .wps-w4-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i2:not([checked])) .wps-w4-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i2[checked]) .wps-p4-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i2:not([checked])) .wps-p4-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i2[checked]) .wps-w5-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i2:not([checked])) .wps-w5-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i2[checked]) .wps-p5-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i2:not([checked])) .wps-p5-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i2[checked]) .wps-w6-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i2:not([checked])) .wps-w6-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i2[checked]) .wps-p6-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i2:not([checked])) .wps-p6-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i2[checked]) .wps-w7-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i2:not([checked])) .wps-w7-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i2[checked]) .wps-p7-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i2:not([checked])) .wps-p7-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i2[checked]) .wps-w8-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i2:not([checked])) .wps-w8-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i2[checked]) .wps-p8-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i2:not([checked])) .wps-p8-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i2[checked]) .wps-w9-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i2:not([checked])) .wps-w9-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i2[checked]) .wps-p9-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i2:not([checked])) .wps-p9-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i2[checked]) .wps-w10-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i2:not([checked])) .wps-w10-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i2[checked]) .wps-p10-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i2:not([checked])) .wps-p10-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i2[checked]) .wps-w11-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i2:not([checked])) .wps-w11-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i2[checked]) .wps-p11-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i2:not([checked])) .wps-p11-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i2[checked]) .wps-w12-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i2:not([checked])) .wps-w12-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i2[checked]) .wps-p12-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i2:not([checked])) .wps-p12-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i2[checked]) .wps-w13-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i2:not([checked])) .wps-w13-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i2[checked]) .wps-p13-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i2:not([checked])) .wps-p13-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i2[checked]) .wps-w14-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i2:not([checked])) .wps-w14-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i2[checked]) .wps-p14-o2 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i2:not([checked])) .wps-p14-o2 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i3[checked]) .wps-w0-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i3:not([checked])) .wps-w0-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i3[checked]) .wps-p0-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i3:not([checked])) .wps-p0-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i3[checked]) .wps-w1-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i3:not([checked])) .wps-w1-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i3[checked]) .wps-p1-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i3:not([checked])) .wps-p1-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i3[checked]) .wps-w2-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i3:not([checked])) .wps-w2-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i3[checked]) .wps-p2-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i3:not([checked])) .wps-p2-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i3[checked]) .wps-w3-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i3:not([checked])) .wps-w3-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i3[checked]) .wps-p3-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i3:not([checked])) .wps-p3-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i3[checked]) .wps-w4-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i3:not([checked])) .wps-w4-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i3[checked]) .wps-p4-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i3:not([checked])) .wps-p4-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i3[checked]) .wps-w5-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i3:not([checked])) .wps-w5-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i3[checked]) .wps-p5-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i3:not([checked])) .wps-p5-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i3[checked]) .wps-w6-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i3:not([checked])) .wps-w6-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i3[checked]) .wps-p6-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i3:not([checked])) .wps-p6-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i3[checked]) .wps-w7-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i3:not([checked])) .wps-w7-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i3[checked]) .wps-p7-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i3:not([checked])) .wps-p7-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i3[checked]) .wps-w8-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i3:not([checked])) .wps-w8-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i3[checked]) .wps-p8-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i3:not([checked])) .wps-p8-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i3[checked]) .wps-w9-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i3:not([checked])) .wps-w9-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i3[checked]) .wps-p9-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i3:not([checked])) .wps-p9-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i3[checked]) .wps-w10-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i3:not([checked])) .wps-w10-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i3[checked]) .wps-p10-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i3:not([checked])) .wps-p10-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i3[checked]) .wps-w11-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i3:not([checked])) .wps-w11-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i3[checked]) .wps-p11-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i3:not([checked])) .wps-p11-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i3[checked]) .wps-w12-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i3:not([checked])) .wps-w12-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i3[checked]) .wps-p12-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i3:not([checked])) .wps-p12-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i3[checked]) .wps-w13-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i3:not([checked])) .wps-w13-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i3[checked]) .wps-p13-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i3:not([checked])) .wps-p13-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i3[checked]) .wps-w14-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i3:not([checked])) .wps-w14-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i3[checked]) .wps-p14-o3 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i3:not([checked])) .wps-p14-o3 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i4[checked]) .wps-w0-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i4:not([checked])) .wps-w0-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i4[checked]) .wps-p0-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i4:not([checked])) .wps-p0-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i4[checked]) .wps-w1-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i4:not([checked])) .wps-w1-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i4[checked]) .wps-p1-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i4:not([checked])) .wps-p1-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i4[checked]) .wps-w2-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i4:not([checked])) .wps-w2-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i4[checked]) .wps-p2-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i4:not([checked])) .wps-p2-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i4[checked]) .wps-w3-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i4:not([checked])) .wps-w3-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i4[checked]) .wps-p3-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i4:not([checked])) .wps-p3-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i4[checked]) .wps-w4-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i4:not([checked])) .wps-w4-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i4[checked]) .wps-p4-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i4:not([checked])) .wps-p4-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i4[checked]) .wps-w5-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i4:not([checked])) .wps-w5-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i4[checked]) .wps-p5-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i4:not([checked])) .wps-p5-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i4[checked]) .wps-w6-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i4:not([checked])) .wps-w6-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i4[checked]) .wps-p6-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i4:not([checked])) .wps-p6-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i4[checked]) .wps-w7-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i4:not([checked])) .wps-w7-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i4[checked]) .wps-p7-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i4:not([checked])) .wps-p7-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i4[checked]) .wps-w8-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i4:not([checked])) .wps-w8-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i4[checked]) .wps-p8-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i4:not([checked])) .wps-p8-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i4[checked]) .wps-w9-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i4:not([checked])) .wps-w9-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i4[checked]) .wps-p9-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i4:not([checked])) .wps-p9-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i4[checked]) .wps-w10-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i4:not([checked])) .wps-w10-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i4[checked]) .wps-p10-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i4:not([checked])) .wps-p10-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i4[checked]) .wps-w11-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i4:not([checked])) .wps-w11-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i4[checked]) .wps-p11-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i4:not([checked])) .wps-p11-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i4[checked]) .wps-w12-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i4:not([checked])) .wps-w12-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i4[checked]) .wps-p12-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i4:not([checked])) .wps-p12-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i4[checked]) .wps-w13-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i4:not([checked])) .wps-w13-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i4[checked]) .wps-p13-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i4:not([checked])) .wps-p13-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i4[checked]) .wps-w14-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i4:not([checked])) .wps-w14-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i4[checked]) .wps-p14-o4 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i4:not([checked])) .wps-p14-o4 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i5[checked]) .wps-w0-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i5:not([checked])) .wps-w0-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i5[checked]) .wps-p0-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i5:not([checked])) .wps-p0-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i5[checked]) .wps-w1-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i5:not([checked])) .wps-w1-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i5[checked]) .wps-p1-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i5:not([checked])) .wps-p1-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i5[checked]) .wps-w2-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i5:not([checked])) .wps-w2-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i5[checked]) .wps-p2-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i5:not([checked])) .wps-p2-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i5[checked]) .wps-w3-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i5:not([checked])) .wps-w3-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i5[checked]) .wps-p3-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i5:not([checked])) .wps-p3-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i5[checked]) .wps-w4-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i5:not([checked])) .wps-w4-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i5[checked]) .wps-p4-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i5:not([checked])) .wps-p4-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i5[checked]) .wps-w5-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i5:not([checked])) .wps-w5-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i5[checked]) .wps-p5-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i5:not([checked])) .wps-p5-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i5[checked]) .wps-w6-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i5:not([checked])) .wps-w6-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i5[checked]) .wps-p6-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i5:not([checked])) .wps-p6-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i5[checked]) .wps-w7-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i5:not([checked])) .wps-w7-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i5[checked]) .wps-p7-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i5:not([checked])) .wps-p7-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i5[checked]) .wps-w8-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i5:not([checked])) .wps-w8-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i5[checked]) .wps-p8-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i5:not([checked])) .wps-p8-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i5[checked]) .wps-w9-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i5:not([checked])) .wps-w9-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i5[checked]) .wps-p9-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i5:not([checked])) .wps-p9-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i5[checked]) .wps-w10-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i5:not([checked])) .wps-w10-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i5[checked]) .wps-p10-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i5:not([checked])) .wps-p10-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i5[checked]) .wps-w11-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i5:not([checked])) .wps-w11-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i5[checked]) .wps-p11-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i5:not([checked])) .wps-p11-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i5[checked]) .wps-w12-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i5:not([checked])) .wps-w12-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i5[checked]) .wps-p12-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i5:not([checked])) .wps-p12-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i5[checked]) .wps-w13-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i5:not([checked])) .wps-w13-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i5[checked]) .wps-p13-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i5:not([checked])) .wps-p13-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i5[checked]) .wps-w14-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i5:not([checked])) .wps-w14-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i5[checked]) .wps-p14-o5 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i5:not([checked])) .wps-p14-o5 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i6[checked]) .wps-w0-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i6:not([checked])) .wps-w0-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i6[checked]) .wps-p0-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i6:not([checked])) .wps-p0-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i6[checked]) .wps-w1-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i6:not([checked])) .wps-w1-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i6[checked]) .wps-p1-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i6:not([checked])) .wps-p1-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i6[checked]) .wps-w2-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i6:not([checked])) .wps-w2-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i6[checked]) .wps-p2-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i6:not([checked])) .wps-p2-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i6[checked]) .wps-w3-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i6:not([checked])) .wps-w3-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i6[checked]) .wps-p3-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i6:not([checked])) .wps-p3-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i6[checked]) .wps-w4-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i6:not([checked])) .wps-w4-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i6[checked]) .wps-p4-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i6:not([checked])) .wps-p4-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i6[checked]) .wps-w5-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i6:not([checked])) .wps-w5-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i6[checked]) .wps-p5-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i6:not([checked])) .wps-p5-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i6[checked]) .wps-w6-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i6:not([checked])) .wps-w6-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i6[checked]) .wps-p6-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i6:not([checked])) .wps-p6-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i6[checked]) .wps-w7-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i6:not([checked])) .wps-w7-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i6[checked]) .wps-p7-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i6:not([checked])) .wps-p7-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i6[checked]) .wps-w8-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i6:not([checked])) .wps-w8-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i6[checked]) .wps-p8-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i6:not([checked])) .wps-p8-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i6[checked]) .wps-w9-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i6:not([checked])) .wps-w9-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i6[checked]) .wps-p9-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i6:not([checked])) .wps-p9-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i6[checked]) .wps-w10-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i6:not([checked])) .wps-w10-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i6[checked]) .wps-p10-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i6:not([checked])) .wps-p10-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i6[checked]) .wps-w11-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i6:not([checked])) .wps-w11-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i6[checked]) .wps-p11-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i6:not([checked])) .wps-p11-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i6[checked]) .wps-w12-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i6:not([checked])) .wps-w12-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i6[checked]) .wps-p12-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i6:not([checked])) .wps-p12-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i6[checked]) .wps-w13-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i6:not([checked])) .wps-w13-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i6[checked]) .wps-p13-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i6:not([checked])) .wps-p13-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i6[checked]) .wps-w14-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i6:not([checked])) .wps-w14-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i6[checked]) .wps-p14-o6 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i6:not([checked])) .wps-p14-o6 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i7[checked]) .wps-w0-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i7:not([checked])) .wps-w0-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i7[checked]) .wps-p0-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i7:not([checked])) .wps-p0-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i7[checked]) .wps-w1-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i7:not([checked])) .wps-w1-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i7[checked]) .wps-p1-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i7:not([checked])) .wps-p1-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i7[checked]) .wps-w2-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i7:not([checked])) .wps-w2-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i7[checked]) .wps-p2-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i7:not([checked])) .wps-p2-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i7[checked]) .wps-w3-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i7:not([checked])) .wps-w3-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i7[checked]) .wps-p3-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i7:not([checked])) .wps-p3-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i7[checked]) .wps-w4-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i7:not([checked])) .wps-w4-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i7[checked]) .wps-p4-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i7:not([checked])) .wps-p4-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i7[checked]) .wps-w5-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i7:not([checked])) .wps-w5-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i7[checked]) .wps-p5-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i7:not([checked])) .wps-p5-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i7[checked]) .wps-w6-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i7:not([checked])) .wps-w6-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i7[checked]) .wps-p6-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i7:not([checked])) .wps-p6-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i7[checked]) .wps-w7-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i7:not([checked])) .wps-w7-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i7[checked]) .wps-p7-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i7:not([checked])) .wps-p7-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i7[checked]) .wps-w8-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i7:not([checked])) .wps-w8-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i7[checked]) .wps-p8-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i7:not([checked])) .wps-p8-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i7[checked]) .wps-w9-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i7:not([checked])) .wps-w9-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i7[checked]) .wps-p9-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i7:not([checked])) .wps-p9-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i7[checked]) .wps-w10-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i7:not([checked])) .wps-w10-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i7[checked]) .wps-p10-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i7:not([checked])) .wps-p10-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i7[checked]) .wps-w11-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i7:not([checked])) .wps-w11-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i7[checked]) .wps-p11-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i7:not([checked])) .wps-p11-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i7[checked]) .wps-w12-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i7:not([checked])) .wps-w12-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i7[checked]) .wps-p12-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i7:not([checked])) .wps-p12-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i7[checked]) .wps-w13-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i7:not([checked])) .wps-w13-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i7[checked]) .wps-p13-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i7:not([checked])) .wps-p13-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i7[checked]) .wps-w14-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i7:not([checked])) .wps-w14-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i7[checked]) .wps-p14-o7 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i7:not([checked])) .wps-p14-o7 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i8[checked]) .wps-w0-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i8:not([checked])) .wps-w0-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i8[checked]) .wps-p0-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i8:not([checked])) .wps-p0-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i8[checked]) .wps-w1-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i8:not([checked])) .wps-w1-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i8[checked]) .wps-p1-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i8:not([checked])) .wps-p1-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i8[checked]) .wps-w2-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i8:not([checked])) .wps-w2-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i8[checked]) .wps-p2-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i8:not([checked])) .wps-p2-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i8[checked]) .wps-w3-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i8:not([checked])) .wps-w3-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i8[checked]) .wps-p3-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i8:not([checked])) .wps-p3-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i8[checked]) .wps-w4-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i8:not([checked])) .wps-w4-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i8[checked]) .wps-p4-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i8:not([checked])) .wps-p4-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i8[checked]) .wps-w5-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i8:not([checked])) .wps-w5-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i8[checked]) .wps-p5-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i8:not([checked])) .wps-p5-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i8[checked]) .wps-w6-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i8:not([checked])) .wps-w6-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i8[checked]) .wps-p6-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i8:not([checked])) .wps-p6-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i8[checked]) .wps-w7-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i8:not([checked])) .wps-w7-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i8[checked]) .wps-p7-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i8:not([checked])) .wps-p7-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i8[checked]) .wps-w8-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i8:not([checked])) .wps-w8-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i8[checked]) .wps-p8-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i8:not([checked])) .wps-p8-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i8[checked]) .wps-w9-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i8:not([checked])) .wps-w9-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i8[checked]) .wps-p9-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i8:not([checked])) .wps-p9-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i8[checked]) .wps-w10-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i8:not([checked])) .wps-w10-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i8[checked]) .wps-p10-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i8:not([checked])) .wps-p10-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i8[checked]) .wps-w11-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i8:not([checked])) .wps-w11-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i8[checked]) .wps-p11-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i8:not([checked])) .wps-p11-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i8[checked]) .wps-w12-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i8:not([checked])) .wps-w12-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i8[checked]) .wps-p12-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i8:not([checked])) .wps-p12-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i8[checked]) .wps-w13-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i8:not([checked])) .wps-w13-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i8[checked]) .wps-p13-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i8:not([checked])) .wps-p13-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i8[checked]) .wps-w14-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i8:not([checked])) .wps-w14-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i8[checked]) .wps-p14-o8 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i8:not([checked])) .wps-p14-o8 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i9[checked]) .wps-w0-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i9:not([checked])) .wps-w0-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i9[checked]) .wps-p0-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i9:not([checked])) .wps-p0-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i9[checked]) .wps-w1-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i9:not([checked])) .wps-w1-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i9[checked]) .wps-p1-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i9:not([checked])) .wps-p1-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i9[checked]) .wps-w2-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i9:not([checked])) .wps-w2-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i9[checked]) .wps-p2-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i9:not([checked])) .wps-p2-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i9[checked]) .wps-w3-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i9:not([checked])) .wps-w3-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i9[checked]) .wps-p3-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i9:not([checked])) .wps-p3-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i9[checked]) .wps-w4-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i9:not([checked])) .wps-w4-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i9[checked]) .wps-p4-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i9:not([checked])) .wps-p4-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i9[checked]) .wps-w5-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i9:not([checked])) .wps-w5-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i9[checked]) .wps-p5-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i9:not([checked])) .wps-p5-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i9[checked]) .wps-w6-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i9:not([checked])) .wps-w6-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i9[checked]) .wps-p6-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i9:not([checked])) .wps-p6-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i9[checked]) .wps-w7-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i9:not([checked])) .wps-w7-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i9[checked]) .wps-p7-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i9:not([checked])) .wps-p7-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i9[checked]) .wps-w8-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i9:not([checked])) .wps-w8-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i9[checked]) .wps-p8-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i9:not([checked])) .wps-p8-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i9[checked]) .wps-w9-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i9:not([checked])) .wps-w9-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i9[checked]) .wps-p9-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i9:not([checked])) .wps-p9-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i9[checked]) .wps-w10-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i9:not([checked])) .wps-w10-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i9[checked]) .wps-p10-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i9:not([checked])) .wps-p10-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i9[checked]) .wps-w11-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i9:not([checked])) .wps-w11-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i9[checked]) .wps-p11-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i9:not([checked])) .wps-p11-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i9[checked]) .wps-w12-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i9:not([checked])) .wps-w12-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i9[checked]) .wps-p12-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i9:not([checked])) .wps-p12-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i9[checked]) .wps-w13-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i9:not([checked])) .wps-w13-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i9[checked]) .wps-p13-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i9:not([checked])) .wps-p13-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i9[checked]) .wps-w14-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i9:not([checked])) .wps-w14-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i9[checked]) .wps-p14-o9 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i9:not([checked])) .wps-p14-o9 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i10[checked]) .wps-w0-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i10:not([checked])) .wps-w0-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i10[checked]) .wps-p0-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i10:not([checked])) .wps-p0-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i10[checked]) .wps-w1-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i10:not([checked])) .wps-w1-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i10[checked]) .wps-p1-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i10:not([checked])) .wps-p1-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i10[checked]) .wps-w2-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i10:not([checked])) .wps-w2-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i10[checked]) .wps-p2-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i10:not([checked])) .wps-p2-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i10[checked]) .wps-w3-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i10:not([checked])) .wps-w3-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i10[checked]) .wps-p3-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i10:not([checked])) .wps-p3-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i10[checked]) .wps-w4-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i10:not([checked])) .wps-w4-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i10[checked]) .wps-p4-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i10:not([checked])) .wps-p4-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i10[checked]) .wps-w5-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i10:not([checked])) .wps-w5-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i10[checked]) .wps-p5-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i10:not([checked])) .wps-p5-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i10[checked]) .wps-w6-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i10:not([checked])) .wps-w6-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i10[checked]) .wps-p6-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i10:not([checked])) .wps-p6-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i10[checked]) .wps-w7-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i10:not([checked])) .wps-w7-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i10[checked]) .wps-p7-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i10:not([checked])) .wps-p7-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i10[checked]) .wps-w8-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i10:not([checked])) .wps-w8-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i10[checked]) .wps-p8-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i10:not([checked])) .wps-p8-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i10[checked]) .wps-w9-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i10:not([checked])) .wps-w9-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i10[checked]) .wps-p9-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i10:not([checked])) .wps-p9-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i10[checked]) .wps-w10-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i10:not([checked])) .wps-w10-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i10[checked]) .wps-p10-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i10:not([checked])) .wps-p10-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i10[checked]) .wps-w11-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i10:not([checked])) .wps-w11-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i10[checked]) .wps-p11-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i10:not([checked])) .wps-p11-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i10[checked]) .wps-w12-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i10:not([checked])) .wps-w12-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i10[checked]) .wps-p12-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i10:not([checked])) .wps-p12-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i10[checked]) .wps-w13-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i10:not([checked])) .wps-w13-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i10[checked]) .wps-p13-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i10:not([checked])) .wps-p13-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i10[checked]) .wps-w14-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i10:not([checked])) .wps-w14-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i10[checked]) .wps-p14-o10 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i10:not([checked])) .wps-p14-o10 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i11[checked]) .wps-w0-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i11:not([checked])) .wps-w0-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i11[checked]) .wps-p0-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i11:not([checked])) .wps-p0-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i11[checked]) .wps-w1-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i11:not([checked])) .wps-w1-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i11[checked]) .wps-p1-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i11:not([checked])) .wps-p1-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i11[checked]) .wps-w2-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i11:not([checked])) .wps-w2-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i11[checked]) .wps-p2-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i11:not([checked])) .wps-p2-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i11[checked]) .wps-w3-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i11:not([checked])) .wps-w3-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i11[checked]) .wps-p3-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i11:not([checked])) .wps-p3-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i11[checked]) .wps-w4-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i11:not([checked])) .wps-w4-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i11[checked]) .wps-p4-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i11:not([checked])) .wps-p4-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i11[checked]) .wps-w5-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i11:not([checked])) .wps-w5-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i11[checked]) .wps-p5-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i11:not([checked])) .wps-p5-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i11[checked]) .wps-w6-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i11:not([checked])) .wps-w6-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i11[checked]) .wps-p6-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i11:not([checked])) .wps-p6-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i11[checked]) .wps-w7-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i11:not([checked])) .wps-w7-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i11[checked]) .wps-p7-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i11:not([checked])) .wps-p7-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i11[checked]) .wps-w8-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i11:not([checked])) .wps-w8-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i11[checked]) .wps-p8-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i11:not([checked])) .wps-p8-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i11[checked]) .wps-w9-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i11:not([checked])) .wps-w9-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i11[checked]) .wps-p9-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i11:not([checked])) .wps-p9-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i11[checked]) .wps-w10-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i11:not([checked])) .wps-w10-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i11[checked]) .wps-p10-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i11:not([checked])) .wps-p10-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i11[checked]) .wps-w11-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i11:not([checked])) .wps-w11-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i11[checked]) .wps-p11-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i11:not([checked])) .wps-p11-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i11[checked]) .wps-w12-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i11:not([checked])) .wps-w12-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i11[checked]) .wps-p12-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i11:not([checked])) .wps-p12-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i11[checked]) .wps-w13-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i11:not([checked])) .wps-w13-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i11[checked]) .wps-p13-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i11:not([checked])) .wps-p13-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i11[checked]) .wps-w14-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i11:not([checked])) .wps-w14-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i11[checked]) .wps-p14-o11 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i11:not([checked])) .wps-p14-o11 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i12[checked]) .wps-w0-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i12:not([checked])) .wps-w0-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i12[checked]) .wps-p0-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i12:not([checked])) .wps-p0-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i12[checked]) .wps-w1-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i12:not([checked])) .wps-w1-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i12[checked]) .wps-p1-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i12:not([checked])) .wps-p1-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i12[checked]) .wps-w2-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i12:not([checked])) .wps-w2-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i12[checked]) .wps-p2-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i12:not([checked])) .wps-p2-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i12[checked]) .wps-w3-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i12:not([checked])) .wps-w3-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i12[checked]) .wps-p3-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i12:not([checked])) .wps-p3-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i12[checked]) .wps-w4-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i12:not([checked])) .wps-w4-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i12[checked]) .wps-p4-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i12:not([checked])) .wps-p4-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i12[checked]) .wps-w5-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i12:not([checked])) .wps-w5-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i12[checked]) .wps-p5-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i12:not([checked])) .wps-p5-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i12[checked]) .wps-w6-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i12:not([checked])) .wps-w6-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i12[checked]) .wps-p6-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i12:not([checked])) .wps-p6-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i12[checked]) .wps-w7-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i12:not([checked])) .wps-w7-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i12[checked]) .wps-p7-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i12:not([checked])) .wps-p7-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i12[checked]) .wps-w8-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i12:not([checked])) .wps-w8-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i12[checked]) .wps-p8-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i12:not([checked])) .wps-p8-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i12[checked]) .wps-w9-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i12:not([checked])) .wps-w9-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i12[checked]) .wps-p9-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i12:not([checked])) .wps-p9-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i12[checked]) .wps-w10-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i12:not([checked])) .wps-w10-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i12[checked]) .wps-p10-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i12:not([checked])) .wps-p10-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i12[checked]) .wps-w11-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i12:not([checked])) .wps-w11-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i12[checked]) .wps-p11-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i12:not([checked])) .wps-p11-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i12[checked]) .wps-w12-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i12:not([checked])) .wps-w12-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i12[checked]) .wps-p12-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i12:not([checked])) .wps-p12-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i12[checked]) .wps-w13-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i12:not([checked])) .wps-w13-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i12[checked]) .wps-p13-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i12:not([checked])) .wps-p13-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i12[checked]) .wps-w14-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i12:not([checked])) .wps-w14-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i12[checked]) .wps-p14-o12 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i12:not([checked])) .wps-p14-o12 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i13[checked]) .wps-w0-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i13:not([checked])) .wps-w0-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i13[checked]) .wps-p0-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i13:not([checked])) .wps-p0-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i13[checked]) .wps-w1-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i13:not([checked])) .wps-w1-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i13[checked]) .wps-p1-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i13:not([checked])) .wps-p1-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i13[checked]) .wps-w2-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i13:not([checked])) .wps-w2-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i13[checked]) .wps-p2-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i13:not([checked])) .wps-p2-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i13[checked]) .wps-w3-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i13:not([checked])) .wps-w3-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i13[checked]) .wps-p3-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i13:not([checked])) .wps-p3-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i13[checked]) .wps-w4-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i13:not([checked])) .wps-w4-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i13[checked]) .wps-p4-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i13:not([checked])) .wps-p4-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i13[checked]) .wps-w5-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i13:not([checked])) .wps-w5-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i13[checked]) .wps-p5-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i13:not([checked])) .wps-p5-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i13[checked]) .wps-w6-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i13:not([checked])) .wps-w6-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i13[checked]) .wps-p6-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i13:not([checked])) .wps-p6-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i13[checked]) .wps-w7-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i13:not([checked])) .wps-w7-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i13[checked]) .wps-p7-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i13:not([checked])) .wps-p7-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i13[checked]) .wps-w8-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i13:not([checked])) .wps-w8-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i13[checked]) .wps-p8-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i13:not([checked])) .wps-p8-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i13[checked]) .wps-w9-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i13:not([checked])) .wps-w9-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i13[checked]) .wps-p9-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i13:not([checked])) .wps-p9-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i13[checked]) .wps-w10-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i13:not([checked])) .wps-w10-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i13[checked]) .wps-p10-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i13:not([checked])) .wps-p10-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i13[checked]) .wps-w11-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i13:not([checked])) .wps-w11-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i13[checked]) .wps-p11-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i13:not([checked])) .wps-p11-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i13[checked]) .wps-w12-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i13:not([checked])) .wps-w12-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i13[checked]) .wps-p12-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i13:not([checked])) .wps-p12-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i13[checked]) .wps-w13-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i13:not([checked])) .wps-w13-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i13[checked]) .wps-p13-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i13:not([checked])) .wps-p13-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i13[checked]) .wps-w14-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i13:not([checked])) .wps-w14-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i13[checked]) .wps-p14-o13 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i13:not([checked])) .wps-p14-o13 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i14[checked]) .wps-w0-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w0:has(.wps-w0-i14:not([checked])) .wps-w0-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i14[checked]) .wps-p0-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p0:has(.wps-p0-i14:not([checked])) .wps-p0-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i14[checked]) .wps-w1-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w1:has(.wps-w1-i14:not([checked])) .wps-w1-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i14[checked]) .wps-p1-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p1:has(.wps-p1-i14:not([checked])) .wps-p1-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i14[checked]) .wps-w2-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w2:has(.wps-w2-i14:not([checked])) .wps-w2-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i14[checked]) .wps-p2-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p2:has(.wps-p2-i14:not([checked])) .wps-p2-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i14[checked]) .wps-w3-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w3:has(.wps-w3-i14:not([checked])) .wps-w3-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i14[checked]) .wps-p3-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p3:has(.wps-p3-i14:not([checked])) .wps-p3-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i14[checked]) .wps-w4-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w4:has(.wps-w4-i14:not([checked])) .wps-w4-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i14[checked]) .wps-p4-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p4:has(.wps-p4-i14:not([checked])) .wps-p4-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i14[checked]) .wps-w5-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w5:has(.wps-w5-i14:not([checked])) .wps-w5-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i14[checked]) .wps-p5-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p5:has(.wps-p5-i14:not([checked])) .wps-p5-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i14[checked]) .wps-w6-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w6:has(.wps-w6-i14:not([checked])) .wps-w6-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i14[checked]) .wps-p6-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p6:has(.wps-p6-i14:not([checked])) .wps-p6-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i14[checked]) .wps-w7-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w7:has(.wps-w7-i14:not([checked])) .wps-w7-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i14[checked]) .wps-p7-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p7:has(.wps-p7-i14:not([checked])) .wps-p7-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i14[checked]) .wps-w8-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w8:has(.wps-w8-i14:not([checked])) .wps-w8-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i14[checked]) .wps-p8-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p8:has(.wps-p8-i14:not([checked])) .wps-p8-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i14[checked]) .wps-w9-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w9:has(.wps-w9-i14:not([checked])) .wps-w9-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i14[checked]) .wps-p9-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p9:has(.wps-p9-i14:not([checked])) .wps-p9-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i14[checked]) .wps-w10-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w10:has(.wps-w10-i14:not([checked])) .wps-w10-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i14[checked]) .wps-p10-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p10:has(.wps-p10-i14:not([checked])) .wps-p10-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i14[checked]) .wps-w11-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w11:has(.wps-w11-i14:not([checked])) .wps-w11-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i14[checked]) .wps-p11-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p11:has(.wps-p11-i14:not([checked])) .wps-p11-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i14[checked]) .wps-w12-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w12:has(.wps-w12-i14:not([checked])) .wps-w12-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i14[checked]) .wps-p12-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p12:has(.wps-p12-i14:not([checked])) .wps-p12-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i14[checked]) .wps-w13-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w13:has(.wps-w13-i14:not([checked])) .wps-w13-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i14[checked]) .wps-p13-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p13:has(.wps-p13-i14:not([checked])) .wps-p13-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i14[checked]) .wps-w14-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-w14:has(.wps-w14-i14:not([checked])) .wps-w14-o14 {
+        animation: makeUncheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i14[checked]) .wps-p14-o14 {
+        animation: makeCheck 0.1ms;
+      }
+
+      .wps-p14:has(.wps-p14-i14:not([checked])) .wps-p14-o14 {
+        animation: makeUncheck 0.1ms;
+      }
