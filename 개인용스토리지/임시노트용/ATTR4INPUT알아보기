@@ -1,0 +1,19 @@
+# ATTR4INPUT알아보기
+
+type="checkbox"일시
+ - name
+ - value
+ - disabled
+ - required
+ - form
+ - checked
+
+버튼 역할 (type="submit", type="image")에서만 유의미
+ - formaction
+ - formenctype
+ - formmethod
+ - formnovalidate
+ - formtarget
+
+텍스트 계열 (text, password, search, email, url, tel, date, datetime-local, month, week, time, number)
+ - readonly : 전송은 되는데 편집이 안됨 (이미 입력한 창을 만들때 유용, 자기소개 필드를 받을때, "나는 바보입니다"라고 적고 읽기전용하면...)
