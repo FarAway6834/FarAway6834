@@ -1,5 +1,11 @@
 # dev-ezbus-input용 attr들
 
+ - dose-animed
+ - dose-labled
+ - dose-inputed
+ - dose-input-in-lable
+ - dose-input-in-form
+ - dose-lable-in-form
  - anime-accesskey
  - anime-autofocus
  - anime-class
@@ -49,7 +55,7 @@
  - label-style
  - label-tabindex
  - label-title
- - label-data-aria
+ - label-data-aria (jsonic하게 받을거고, 오직 key-value만 인정하고 나머지는 인정하지 않아서 (무시하는 구현으로 갈수도 있음) jsonic하게 받을것.)
  - input-accesskey
  - input-autofocus
  - input-checked
@@ -68,3 +74,5 @@
  - input-tabindex
  - input-title
  - input-value
+
+총 74종의 어트리뷰트이므로, switch문으로 관리하는 private method애서 정직하게 기능만 적을것.
