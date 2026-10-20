@@ -1,95 +1,95 @@
 # dev-ezbus-input용 attr들
 
- - dose-animed
- - dose-labled
- - dose-inputed
- - dose-input-in-lable
- - dose-input-in-form
- - dose-lable-in-form
- - anime-accesskey
- - anime-autofocus
- - anime-class
- - anime-contenteditable
- - anime-dir
- - anime-hidden
- - anime-id
- - anime-inert
- - anime-lang
- - anime-style
- - anime-tabindex
- - anime-title
+ - dose-animed (불리언 attr임)
+ - dose-labled (불리언 attr임)
+ - dose-inputed (불리언 attr임)
+ - dose-input-in-lable (이게 거짓이면 label이 input보다 먼저 옴) (불리언 attr임)
+ - dose-input-in-form (이게 참이면 form이 존재함, 이게 거짓인데 나머지 dose-뭐시기-in뭐시기가 다 참이면 이 속성은 무시됨.) (불리언 attr임)
+ - dose-lable-in-form (이게 참이어도 form이 존재함) (불리언 attr임)
+ - anime-accesskey (dose-animed시, input보다 나중에 옴)
+ - anime-autofocus (dose-animed시, input보다 나중에 옴) (불리언 attr임)
+ - anime-class (dose-animed시, input보다 나중에 옴)
+ - anime-contenteditable (dose-animed시, input보다 나중에 옴)
+ - anime-dir (dose-animed시, input보다 나중에 옴)
+ - anime-hidden (dose-animed시, input보다 나중에 옴) (불리언 attr임)
+ - anime-id (dose-animed시, input보다 나중에 옴)
+ - anime-inert (dose-animed시, input보다 나중에 옴) (불리언 attr임)
+ - anime-lang (dose-animed시, input보다 나중에 옴)
+ - anime-style (dose-animed시, input보다 나중에 옴)
+ - anime-tabindex (dose-animed시, input보다 나중에 옴)
+ - anime-title (dose-animed시, input보다 나중에 옴)
  - box-accesskey
- - box-autofocus
+ - box-autofocus (불리언 attr임)
  - box-class
  - box-contenteditable
- - box-debug-mode
- - box-detecter-on
+ - box-debug-mode (불리언 attr임)
+ - box-detecter-on (불리언 attr임)
  - box-dir
  - box-height
- - box-hidden
+ - box-hidden (불리언 attr임)
  - box-id
- - box-inert
+ - box-inert (불리언 attr임)
  - box-lang
- - box-non-checkbox
+ - box-non-checkbox (불리언 attr임)
  - box-style
  - box-tabindex
  - box-title
  - box-width
- - label-accesskey
- - label-autofocus
- - label-class
- - label-contenteditable
- - label-dir
- - label-draggable
- - label-for
- - label-form
- - label-hidden
- - label-id
- - label-inert
- - label-lang
- - label-onclick
- - label-ondblclick
- - label-onmousedown
- - label-onmouseup
- - label-onmouseenter
- - label-onmouseleave
- - label-onmouseover
- - label-onmouseout
- - label-onfocus
- - label-onblur
- - label-onkeydown
- - label-onkeyup
- - label-onkeypress
- - label-ondrag
- - label-ondragstart
- - label-ondragend
- - label-ondrop
- - label-ontouchstart
- - label-ontouchend
- - label-ontouchmove
- - label-popover
- - label-spellcheck
- - label-style
- - label-tabindex
- - label-title
- - label-data-aria (jsonic하게 받을거고, 오직 key-value만 인정하고 나머지는 인정하지 않아서 (무시하는 구현으로 갈수도 있음) jsonic하게 받을것.)
- - input-accesskey
- - input-autofocus
- - input-checked
- - input-class
- - input-contenteditable
- - input-dir
- - input-disabled
- - input-form
- - input-hidden
- - input-id
- - input-inert
- - input-lang
- - input-name
- - input-required
- - input-style
- - input-tabindex
- - input-title
- - input-value
+ - label-accesskey (dose-labled시)
+ - label-autofocus (dose-labled시) (불리언 attr임)
+ - label-class (dose-labled시)
+ - label-contenteditable (dose-labled시)
+ - label-dir (dose-labled시)
+ - label-draggable (dose-labled시)
+ - label-for (dose-labled시)
+ - label-form (dose-labled시)
+ - label-hidden (dose-labled시) (불리언 attr임)
+ - label-id (dose-labled시)
+ - label-inert (dose-labled시) (불리언 attr임)
+ - label-lang (dose-labled시)
+ - label-onclick (dose-labled시)
+ - label-ondblclick (dose-labled시)
+ - label-onmousedown (dose-labled시)
+ - label-onmouseup (dose-labled시)
+ - label-onmouseenter (dose-labled시)
+ - label-onmouseleave (dose-labled시)
+ - label-onmouseover (dose-labled시)
+ - label-onmouseout (dose-labled시)
+ - label-onfocus (dose-labled시)
+ - label-onblur (dose-labled시)
+ - label-onkeydown (dose-labled시)
+ - label-onkeyup (dose-labled시)
+ - label-onkeypress (dose-labled시)
+ - label-ondrag (dose-labled시)
+ - label-ondragstart (dose-labled시)
+ - label-ondragend (dose-labled시)
+ - label-ondrop (dose-labled시)
+ - label-ontouchstart (dose-labled시)
+ - label-ontouchend (dose-labled시)
+ - label-ontouchmove (dose-labled시)
+ - label-popover (dose-labled시)
+ - label-spellcheck (dose-labled시)
+ - label-style (dose-labled시)
+ - label-tabindex (dose-labled시)
+ - label-title (dose-labled시)
+ - label-data-aria (jsonic하게 받을거고, 오직 key-value만 인정하고 나머지는 인정하지 않아서 (무시하는 구현으로 갈수도 있음) jsonic하게 받을것.) (dose-labled시)
+ - input-accesskey (dose-inputed시)
+ - input-autofocus (dose-inputed시) (불리언 attr임)
+ - input-checked (dose-inputed시) (불리언 attr임)
+ - input-class (dose-inputed시)
+ - input-contenteditable (dose-inputed시)
+ - input-dir (dose-inputed시)
+ - input-disabled (dose-inputed시) (불리언 attr임)
+ - input-form (dose-inputed시)
+ - input-hidden (dose-inputed시) (불리언 attr임)
+ - input-id (dose-inputed시)
+ - input-inert (dose-inputed시) (불리언 attr임)
+ - input-lang (dose-inputed시)
+ - input-name (dose-inputed시)
+ - input-required (dose-inputed시) (불리언 attr임)
+ - input-style (dose-inputed시)
+ - input-tabindex (dose-inputed시)
+ - input-title (dose-inputed시)
+ - input-value (dose-inputed시)
 
-총 91종의 어트리뷰트이므로, switch문으로 관리하는 private method애서 정직하게 기능만 적을것.
+총 91종의 어트리뷰트이므로, switch문으로 관리하는 private method애서 정직하게 기능만 적을것.4
