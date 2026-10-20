@@ -18,6 +18,23 @@
  - anime-style
  - anime-tabindex
  - anime-title
+ - box-accesskey
+ - box-autofocus
+ - box-class
+ - box-contenteditable
+ - box-debug-mode
+ - box-detecter-on
+ - box-dir
+ - box-height
+ - box-hidden
+ - box-id
+ - box-inert
+ - box-lang
+ - box-non-checkbox
+ - box-style
+ - box-tabindex
+ - box-title
+ - box-width
  - label-accesskey
  - label-autofocus
  - label-class
@@ -75,4 +92,4 @@
  - input-title
  - input-value
 
-총 74종의 어트리뷰트이므로, switch문으로 관리하는 private method애서 정직하게 기능만 적을것.
+총 91종의 어트리뷰트이므로, switch문으로 관리하는 private method애서 정직하게 기능만 적을것.
