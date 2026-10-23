@@ -1,4 +1,4 @@
-# IEIU표기법과, 그를 이용한 EMTI(EVEN MESSIER THAN IEIU) 선언
+# IEIU표기법과, 그를 이용한 EMTI(EVEN MESSIER THAN IEIU) 선언법
 
 둘다 `n.b.`뒤에 명시하는 선언자이긴 하고, 수학계의 비형식성이 형식적인척하는 기만을 막기 위해 불가피한 요소.
 
