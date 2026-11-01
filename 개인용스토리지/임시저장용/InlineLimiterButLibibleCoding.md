@@ -85,7 +85,7 @@
     #ifdef _ILBL_INLINE_DEPTH_SET_CORE_OF_CORE
     # error "_ILBL_INLINE_DEPTH_SET_CORE_OF_CORE must defined by InlineLimiterButLibible not before including ilbl.h"
     #elifdef __GNUC__
-    # define _ILBL_INLINE_DEPTH_SET_CORE_OF_CORE(X) _Pragma(STRINGIFY(GCC params (STRINGIFY(CONCAT(max-inline-recuresive-depth=, X))))))
+    # define _ILBL_INLINE_DEPTH_SET_CORE_OF_CORE(X) _Pragma(STRINGIFY(GCC params (STRINGIFY(CONCAT(max-inline-recursive-depth=, X)))))
     #elifdef _MSC_VER
     # define _ILBL_INLINE_DEPTH_SET_CORE_OF_CORE(X) _Pragma(STRINGIFY(inline_depth(X)))
     #else
