@@ -92,7 +92,7 @@
     pass;
     #endif
     
-    #if (defined(__GNUC__) || defined(_MSC_VER)) & defined(_ILBL_INLINE_DEPTH_SET)
+    #if (defined(__GNUC__) || defined(_MSC_VER)) && defined(_ILBL_INLINE_DEPTH_SET)
     # error "_ILBL_INLINE_DEPTH_SET must defined by InlineLimiterButLibible not before including ilbl.h"
     #elifndef _ILBL_INLINE_DEPTH_SET
     # define _ILBL_INLINE_DEPTH_SET(...) MACRO_BRANCH(_ILBL_INLINE_DEPTH_SET_CORE_OF_CORE, _ILBL_INLINE_DEPTH_SET_CORE __VA_OPT__(, __VA_ARGS__))(__VA_ARGS__)
