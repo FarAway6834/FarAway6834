@@ -10,6 +10,11 @@
 #ifndef _IMPL_MACROPER_H
 # define _IMPL_MACROPER_H
     
+    #ifdef pass
+    # error "pass must defined by impl-macroper.h not before including it."
+    #define pass //pass
+    #endif
+    
     #ifdef MACRO_BRANCH_CORE //begin-if
     # error "MACRO_BRANCH_CORE must defined by impl_macroper.h not before including it."
     #else //pov : I am impl_macroper.h and the macro isn't defined yet.
@@ -26,7 +31,7 @@
     #else //pov : I am impl_macroper.h and the macro isn't defined yet.
     # define STRINGIFY_IMPL(X) #X
     #endif //end-if
-    #ifdef  //begin-if
+    #ifdef STRINGIFY //begin-if
     # error "STRINGIFY must defined by impl_macroper.h not before including it."
     #else //pov : I am impl_macroper.h and the macro isn't defined yet.
     # define STRINGIFY(X) STRINGIFY_IMPL(X)
@@ -55,7 +60,7 @@
     
     #include "impl_macroper.h"
     
-    #if defined(_Try_force_inline) || define(_compiler_specific_core_force_inliner)
+    #if defined(_Try_force_inline) || defined(_compiler_specific_core_force_inliner)
     # error "_Try_force_inline and _compiler_specific_core_force_inliner must defined by InlineLimiterButLibible not before including ilbl.h but _Try_force_inline or _compiler_specific_core_force_inliner was not."
     #elifdef _MSC_VER
          /* INLINE_RECURSION SYSTEM : which only in MSVC pragma */
@@ -73,7 +78,7 @@
     #elifdef _ILBL_INLINE_DEPTH
     # define _ILBL_INLINE_DEPTH_SET_CORE() _ILBL_INLINE_DEPTH_SET_CORE_OF_CORE(_ILBL_INLINE_DEPTH_VALUE)
     #else
-    #
+    pass;
     #endif
     
     #ifdef _ILBL_INLINE_DEPTH_SET_CORE_OF_CORE
@@ -83,7 +88,7 @@
     #elifdef _MSC_VER
     # define _ILBL_INLINE_DEPTH_SET_CORE_OF_CORE(X) _Pragma(STRINGIFY(inline_depth(X)))
     #else
-    #
+    pass;
     #endif
     
     #if (defined(__GNUC__) || defined(_MSC_VER)) & defined(_ILBL_INLINE_DEPTH_SET)
