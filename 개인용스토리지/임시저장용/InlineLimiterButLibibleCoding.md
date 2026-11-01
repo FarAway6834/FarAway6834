@@ -13,7 +13,7 @@
     #ifdef pass
     # error "pass must defined by impl-macroper.h not before including it."
     #else
-    # define pass //pass
+    # define pass ((void)0)
     #endif
     
     #ifdef MACRO_BRANCH_CORE //begin-if
