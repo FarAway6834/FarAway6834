@@ -13,18 +13,48 @@ Low Level ptr관리를 간단하게 해주는 해더좀 기획해봄.
 ## llptr.h
 
 ```c
+# llptr.md
+
+Low Level ptr관리를 간단하게 해주는 해더좀 기획해봄.
+
+## llptr.h
+
+```c
 #pragma once
 
 #ifndef _LLPTR_H
 # define _LLPTR_H
+# define __LLPTR_VERSION__ "SIMPLE"
+
+	#ifndef __STDC_VERSION__
+		#error "in llptr.h, stdc ver must over c11"
+	#elif __STDC_VERSION__ < 201112L
+			#error "in llptr.h, stdc ver must over c11"
+			//tip : `#elif` and `__STDC_VERSION__` are born together. so it possible
+	#elif __STDC_VERSION__ < 202311L
+		#warning "in llptr.h, under C23 version isn't optimized well. actually, LITTLE BIT SUCKS."
+	#endif
 
 #include <stddef.h>
 #include <stdint.h>
 
-/* NORMAL VERSION STARTED. PLZ SEE BELLOW TO SEE WHEN IT END */
+	#ifdef _Try_force_inline
+		#error "llptr _Try_force_inline Exist Error : _Try_force_inline must defined in llptr (if version of llptr is \"SIMPLE\")"
+	#elif defined(__clang__) || defined(__gcc__)
+		#define _Try_force_inline \
+			static inline __attribute__((always_inline, hot, flatten))
+	#elifdef _MSC_VER
+		#define _Try_force_inline static __forceinline
+	#elifdef __LLPTR_SIMPLE_FORCE_ERROR__
+		#error "_Try_force_inline's inline forcing try feature is only supported in clang/gcc/msvc. (especially optimized in clang) (promote warning as error by llptr simple force error symbol definition)"
+	#elifndef __LLPTR_SIMPLE_WARN_OFF__
+		#warning "_Try_force_inline's inline forcing try feature is only supported in clang/gcc/msvc. (especially optimized in clang) (promote warning as error by llptr simple force error symbol definition)"
+		#define _Try_force_inline static inline
+	#else
+		#define _Try_force_inline static inline
+	#endif
 
-#define _Try_force_inline \
-        static inline __attribute__((always_inline, hot, flatten))
+/* NORMAL VERSION STARTED. PLZ SEE BELLOW TO SEE WHEN IT END */
 
 #define STUN_CASTING_FORM(T, V) \
         (T)V
