@@ -311,7 +311,7 @@ inline_cast_defer(size_t, ptr_t, size2ptr, macro_size2ptr)
 /* BELLOW CODE IS HAND PUNNING OPTIMIZED FUNCTIONS. VERY CLEAR, TRIVIAL. but if you optimized with optimized compiler which like-clang, this is not need. because normal version is be punning optimized */
 
 #define hand_optimized_macro_ptr2uintptr(ptr_v) \
-        uintptr_macro_typechekcer( \
+        uintptr_macro_typechecker( \
                 CASTING_FORM( \
                         uintptr_t, \
                         ptr_macro_typechecker(ptr_v) \
@@ -359,16 +359,17 @@ inline_cast_defer(uintptr_t, size_t, hand_optimized_uintptr2size, hand_optimized
 inline_cast_defer(ptr_t, size_t, hand_optimized_ptr2size, hand_optimized_macro_ptr2size)
 inline_cast_defer(size_t, ptr_t, hand_optimized_size2ptr, hand_optimized_macro_size2ptr)
 
+// the three RVO optimized functions
+
 #define hand_optimized_macro_addr2ptr macro_addr2ptr
 #define hand_optimized_macro_addr2uintptr macro_addr2uintptr
 #define hand_optimized_macro_addr2size macro_addr2size
 
-// the three RVO optimized functions
 #define hand_optimized_addr2ptr addr2ptr
 #define hand_optimized_addr2uintptr addr2uintptr
 #define hand_optimized_addr2size addr2size
 
-// the four RVO optimized functions (typechekcers)
+// the four RVO optimized functions (typecheckers)
 #define hand_optimized_addr_macro_typechecker addr_macro_typechecker
 #define hand_optimized_ptr_macro_typechecker ptr_macro_typechecker
 #define hand_optimized_uintptr_macro_typechecker uintptr_macro_typechecker
