@@ -24,132 +24,132 @@ Low Level ptr관리를 간단하게 해주는 해더좀 기획해봄.
 /* NORMAL VERSION STARTED. PLZ SEE BELLOW TO SEE WHEN IT END */
 
 #define _Try_force_inline \
-	static inline __attribute__((always_inline, hot, flatten))
+        static inline __attribute__((always_inline, hot, flatten))
 
 #define STUN_CASTING_FORM(T, V) \
-	(T)V
+        (T)V
 #define CASTING_FORM(T, V)\
-	STUN_CASTING_FORM(T, (V))
+        STUN_CASTING_FORM(T, (V))
 
 #define ModelicInlineFunctionDefer(type, var, func, macro) \
-	_Try_force_inline type func(type var) \
-	{ \
-		var = macro(var); /* this code is elimitate to optimize, when O1~O3... static inline flatten hot typecasting pure identity function is make compile it inline and make optimize as copy propagation and constant folding path  */ \
-		return var; /* will Copy Elision */ \
-	}
+        _Try_force_inline type func(type var) \
+        { \
+                var = macro(var); /* this code is elimitate to optimize, when O1~O3... static inline flatten hot typecasting pure identity function is make compile it inline and make optimize as copy propagation and constant folding path  */ \
+                return var; /* will Copy Elision */ \
+        }
 
 typedef void* ptr_t;
 
 typedef union {
-	/* si non optimization, ergo Temporary Materialization the Automatic Object */
-	ptr_t ptr_v;
-	uintptr_t uintptr_v;
-	size_t size_v;
-	//tip : sizeof(uintptr_t) == sizeof(size_t) == sizeof(ptr_t) est. ergo, sizeof(addr_t) == sizeof(ptr_t) (quia, union deterministic est.)
+        /* si non optimization, ergo Temporary Materialization the Automatic Object */
+        ptr_t ptr_v;
+        uintptr_t uintptr_v;
+        size_t size_v;
+        //tip : sizeof(uintptr_t) == sizeof(size_t) == sizeof(ptr_t) est. ergo, sizeof(addr_t) == sizeof(ptr_t) (quia, union deterministic est.)
 } addr_t;
 
 #define addr_macro_typechecker(addr_v) \
-	_Generic( \
-		(addr_v), \
-		addr_t: (addr_v) \
-	)
+        _Generic( \
+                (addr_v), \
+                addr_t: (addr_v) \
+        )
 
-#define	ptr_macro_typechecker(ptr_v) \
-	_Generic( \
-		(ptr_v), \
-		ptr_t: (ptr_v) \
-	)
+#define ptr_macro_typechecker(ptr_v) \
+        _Generic( \
+                (ptr_v), \
+                ptr_t: (ptr_v) \
+        )
 #define uintptr_macro_typechecker(uintptr_v) \
-	_Generic( \
-		(uintptr_v), \
-		uintptr_t: (uintptr_v) \
-	)
+        _Generic( \
+                (uintptr_v), \
+                uintptr_t: (uintptr_v) \
+        )
 #define size_macro_typechecker(size_v) \
-	_Generic( \
-		(size_v), \
-		size_t: (size_v) \
-	)
+        _Generic( \
+                (size_v), \
+                size_t: (size_v) \
+        )
 
 #define addr_inline_defer(func_name, macro_name) \
-	ModelicInlineFunctionDefer(addr_t, addr_v, func_name, macro_name)
+        ModelicInlineFunctionDefer(addr_t, addr_v, func_name, macro_name)
 
 /* in Compound Literal : Temporary Materialization the Automatic Object if static-inline-flatten-hot-typecasting-pure-identity-function fails to make compile it inline and make optimize as copy propagation and constant folding path because non optimization */
 /* when CASTING_FORM : Type Punning non Value Conversion */
 /* when acess size_v : Type Punning non Value Conversion */
 #define addr_macro_size2uintptr(addr_v) \
-	addr_macro_typechecker( \
-		STUN_CASTING_FORM( \
-			addr_t, \
-			{ \
-				.uintptr_v = CASTING_FORM( \
-					uintptr_t, \
-					addr_macro_typechecker(addr_v).size_v \
-				) \
-			} \
-		) \
-	)
+        addr_macro_typechecker( \
+                STUN_CASTING_FORM( \
+                        addr_t, \
+                        { \
+                                .uintptr_v = CASTING_FORM( \
+                                        uintptr_t, \
+                                        addr_macro_typechecker(addr_v).size_v \
+                                ) \
+                        } \
+                ) \
+        )
 /* in Compound Literal : Temporary Materialization the Automatic Object if static-inline-flatten-hot-typecasting-pure-identity-function fails to make compile it inline and make optimize as copy propagation and constant folding path because non optimization */
 /* when CASTING_FORM : Type Punning non Value Conversion */
 /* when acess uintptr_v : Type Punning non Value Conversion */
 #define addr_macro_uintptr2size(addr_v) \
-	addr_macro_typechecker( \
-		STUN_CASTING_FORM( \
-			addr_t, \
-			{ \
-				.size_v = CASTING_FORM( \
-					size_t, \
-					addr_macro_typechecker(addr_v).uintptr_v \
-				) \
-			} \
-		) \
-	)
+        addr_macro_typechecker( \
+                STUN_CASTING_FORM( \
+                        addr_t, \
+                        { \
+                                .size_v = CASTING_FORM( \
+                                        size_t, \
+                                        addr_macro_typechecker(addr_v).uintptr_v \
+                                ) \
+                        } \
+                ) \
+        )
 /* in Compound Literal : Temporary Materialization the Automatic Object if static-inline-flatten-hot-typecasting-pure-identity-function fails to make compile it inline and make optimize as copy propagation and constant folding path because non optimization */
 /* when CASTING_FORM : Type Punning non Value Conversion */
 /* when acess ptr_v : Type Punning non Value Conversion */
 #define addr_macro_ptr2uintptr(addr_v) \
-	addr_macro_typechecker( \
-		STUN_CASTING_FORM( \
-			addr_t, \
-			{ \
-				.uintptr_v = CASTING_FORM( \
-					uintptr_t, \
-					addr_macro_typechecker(addr_v).ptr_v \
-				) \
-			} \
-		) \
-	)
+        addr_macro_typechecker( \
+                STUN_CASTING_FORM( \
+                        addr_t, \
+                        { \
+                                .uintptr_v = CASTING_FORM( \
+                                        uintptr_t, \
+                                        addr_macro_typechecker(addr_v).ptr_v \
+                                ) \
+                        } \
+                ) \
+        )
 /* in Compound Literal : Temporary Materialization the Automatic Object if static-inline-flatten-hot-typecasting-pure-identity-function fails to make compile it inline and make optimize as copy propagation and constant folding path because non optimization */
 /* when CASTING_FORM : Type Punning non Value Conversion */
 /* when acess uintptr_v : Type Punning non Value Conversion */
 #define addr_macro_uintptr2ptr(addr_v) \
-	addr_macro_typechecker( \
-		STUN_CASTING_FORM( \
-			addr_t, \
-			{ \
-				.ptr_v = CASTING_FORM( \
-					ptr_t, \
-					addr_macro_typechecker(addr_v).uintptr_v \
-				) \
-			} \
-		) \
-	)
+        addr_macro_typechecker( \
+                STUN_CASTING_FORM( \
+                        addr_t, \
+                        { \
+                                .ptr_v = CASTING_FORM( \
+                                        ptr_t, \
+                                        addr_macro_typechecker(addr_v).uintptr_v \
+                                ) \
+                        } \
+                ) \
+        )
 
 #define addr_macro_size2ptr(addr_v) \
-	addr_macro_uintptr2ptr( \
-	addr_macro_size2uintptr( \
-		addr_v \
-	) \
-	)
+        addr_macro_uintptr2ptr( \
+        addr_macro_size2uintptr( \
+                addr_v \
+        ) \
+        )
 #define addr_macro_ptr2size(addr_v) \
-	addr_macro_uintptr2size( \
-	addr_macro_ptr2uintptr( \
-		addr_v \
-	) \
-	)
+        addr_macro_uintptr2size( \
+        addr_macro_ptr2uintptr( \
+                addr_v \
+        ) \
+        )
 
 addr_inline_defer(
-	addr_typechecker,
-	addr_macro_typechecker
+        addr_typechecker,
+        addr_macro_typechecker
 )
 
 ModelicInlineFunctionDefer(ptr_t, ptr_v, ptr_typechecker, ptr_macro_typechecker)
@@ -158,81 +158,81 @@ ModelicInlineFunctionDefer(size_t, size_v, size_typechecker, size_macro_typechec
 
 /* Punning feature of addr_size2uintptr not supported in debug(O0) without opmimization. if not debug, Temporaray Materialization is blocked to optimized. */
 addr_inline_defer(
-	addr_size2uintptr,
-	addr_macro_size2uintptr
+        addr_size2uintptr,
+        addr_macro_size2uintptr
 )
 /* Punning feature of addr_uintptr2size not supported in debug(O0) without opmimization. if not debug, Temporaray Materialization is blocked to optimized. */
 addr_inline_defer(
-	addr_uintptr2size,
-	addr_macro_uintptr2size
+        addr_uintptr2size,
+        addr_macro_uintptr2size
 )
 /* Punning feature of addr_ptr2uintptr not supported in debug(O0) without opmimization. if not debug, Temporaray Materialization is blocked to optimized. */
 addr_inline_defer(
-	addr_ptr2uintptr,
-	addr_macro_ptr2uintptr
+        addr_ptr2uintptr,
+        addr_macro_ptr2uintptr
 )
 /* Punning feature of addr_uintptr2ptr not supported in debug(O0) without opmimization. if not debug, Temporaray Materialization is blocked to optimized. */
 addr_inline_defer(
-	addr_uintptr2ptr,
-	addr_macro_uintptr2ptr
+        addr_uintptr2ptr,
+        addr_macro_uintptr2ptr
 )
 
 /* Punning feature of addr_size2ptr not supported in debug(O0) without opmimization. if not debug, Temporaray Materialization is blocked to optimized. */
 addr_inline_defer(
-	addr_size2ptr,
-	addr_macro_size2ptr
+        addr_size2ptr,
+        addr_macro_size2ptr
 )
 /* Punning feature of addr_ptr2size not supported in debug(O0) without opmimization. if not debug, Temporaray Materialization is blocked to optimized. */
 addr_inline_defer(
-	addr_ptr2size,
-	addr_macro_ptr2size
+        addr_ptr2size,
+        addr_macro_ptr2size
 )
 
 #define inline_cast_defer(from_t, to_t, func_name, macro_name) \
-	_Try_force_inline to_t func_name(from_t v) \
-	{ \
-		return macro_name(v); /* will Copy Elision, so... flatten aren't actually need. it's actually almost high flatten-like */ \
-	}
+        _Try_force_inline to_t func_name(from_t v) \
+        { \
+                return macro_name(v); /* will Copy Elision, so... flatten aren't actually need. it's actually almost high flatten-like */ \
+        }
 
 /* in Compound Literal : Temporary Materialization the Automatic Object if static-inline-flatten-hot-typecasting-pure-identity-function fails to make compile it inline and make optimize as copy propagation and constant folding path because non optimization */
 #define macro_ptr2addr(ptr) \
-	addr_macro_typechecker( \
-		STUN_CASTING_FORM( \
-			addr_t, \
-			{ .ptr_v = ptr_macro_typechecker(ptr) } \
-		) \
-	)
+        addr_macro_typechecker( \
+                STUN_CASTING_FORM( \
+                        addr_t, \
+                        { .ptr_v = ptr_macro_typechecker(ptr) } \
+                ) \
+        )
 /* when acess ptr_v : Type Punning non Value Conversion */
 #define macro_addr2ptr(addr_v) \
-	ptr_macro_typechecker( \
-		addr_macro_typechecker(addr_v).ptr_v \
-	)
+        ptr_macro_typechecker( \
+                addr_macro_typechecker(addr_v).ptr_v \
+        )
 /* in Compound Literal : Temporary Materialization the Automatic Object if static-inline-flatten-hot-typecasting-pure-identity-function fails to make compile it inline and make optimize as copy propagation and constant folding path because non optimization */
 #define macro_uintptr2addr(uintptr) \
-	addr_macro_typechecker( \
-		STUN_CASTING_FORM( \
-			addr_t, \
-			{ .uintptr_v = uintptr_macro_typechecker(uintptr) } \
-		) \
-	)
+        addr_macro_typechecker( \
+                STUN_CASTING_FORM( \
+                        addr_t, \
+                        { .uintptr_v = uintptr_macro_typechecker(uintptr) } \
+                ) \
+        )
 /* when acess uintptr_v : Type Punning non Value Conversion */
 #define macro_addr2uintptr(addr_v) \
-	uintptr_macro_typechecker( \
-		addr_macro_typechecker(addr_v).uintptr_v \
-	)
+        uintptr_macro_typechecker( \
+                addr_macro_typechecker(addr_v).uintptr_v \
+        )
 /* in Compound Literal : Temporary Materialization the Automatic Object if static-inline-flatten-hot-typecasting-pure-identity-function fails to make compile it inline and make optimize as copy propagation and constant folding path because non optimization */
 #define macro_size2addr(size) \
-	addr_macro_typechecker( \
-		STUN_CASTING_FORM( \
-			addr_t, \
-			{ .size_v = size_macro_typechecker(size) } \
-		) \
-	)
+        addr_macro_typechecker( \
+                STUN_CASTING_FORM( \
+                        addr_t, \
+                        { .size_v = size_macro_typechecker(size) } \
+                ) \
+        )
 /* when acess size_v : Type Punning non Value Conversion */
 #define macro_addr2size(addr_v) \
-	size_macro_typechecker( \
-		addr_macro_typechecker(addr_v).size_v \
-	)
+        size_macro_typechecker( \
+                addr_macro_typechecker(addr_v).size_v \
+        )
 
 /* Punning feature of ptr2addr not supported in debug(O0) without opmimization. if not debug, Temporaray Materialization is blocked to optimized. */
 inline_cast_defer(ptr_t, addr_t, ptr2addr, macro_ptr2addr)
@@ -245,53 +245,53 @@ inline_cast_defer(size_t, addr_t, size2addr, macro_size2addr)
 inline_cast_defer(addr_t, size_t, addr2size, macro_addr2size)
 
 #define macro_ptr2uintptr(ptr_v) \
-	macro_addr2uintptr( \
-	addr_macro_ptr2uintptr( \
-	macro_ptr2addr( \
-		ptr_v \
-	) \
-	) \
-	)
+        macro_addr2uintptr( \
+        addr_macro_ptr2uintptr( \
+        macro_ptr2addr( \
+                ptr_v \
+        ) \
+        ) \
+        )
 #define macro_uintptr2ptr(uintptr_v) \
-	macro_addr2ptr( \
-	addr_macro_uintptr2ptr( \
-	macro_uintptr2addr( \
-		uintptr_v \
-	) \
-	) \
-	)
+        macro_addr2ptr( \
+        addr_macro_uintptr2ptr( \
+        macro_uintptr2addr( \
+                uintptr_v \
+        ) \
+        ) \
+        )
 #define macro_size2uintptr(size_v) \
-	macro_addr2uintptr( \
-	addr_macro_size2uintptr( \
-	macro_size2addr( \
-		size_v \
-	) \
-	) \
-	)
+        macro_addr2uintptr( \
+        addr_macro_size2uintptr( \
+        macro_size2addr( \
+                size_v \
+        ) \
+        ) \
+        )
 #define macro_uintptr2size(size_v) \
-	macro_addr2size( \
-	addr_macro_uintptr2size( \
-	macro_uintptr2addr( \
-		size_v \
-	) \
-	) \
-	)
+        macro_addr2size( \
+        addr_macro_uintptr2size( \
+        macro_uintptr2addr( \
+                size_v \
+        ) \
+        ) \
+        )
 #define macro_ptr2size(ptr_v) \
-	macro_addr2size( \
-	addr_macro_ptr2size( \
-	macro_ptr2addr( \
-		ptr_v \
-	) \
-	) \
-	)
+        macro_addr2size( \
+        addr_macro_ptr2size( \
+        macro_ptr2addr( \
+                ptr_v \
+        ) \
+        ) \
+        )
 #define macro_size2ptr(size_v) \
-	macro_addr2ptr( \
-	addr_macro_size2ptr( \
-	macro_size2addr( \
-		size_v \
-	) \
-	) \
-	)
+        macro_addr2ptr( \
+        addr_macro_size2ptr( \
+        macro_size2addr( \
+                size_v \
+        ) \
+        ) \
+        )
 
 /* Punning feature of ptr2uintptr not supported in debug(O0) without opmimization. if not debug, Temporaray Materialization is blocked to optimized. */
 inline_cast_defer(ptr_t, uintptr_t, ptr2uintptr, macro_ptr2uintptr)
@@ -311,46 +311,46 @@ inline_cast_defer(size_t, ptr_t, size2ptr, macro_size2ptr)
 /* BELLOW CODE IS HAND PUNNING OPTIMIZED FUNCTIONS. VERY CLEAR, TRIVIAL. but if you optimized with optimized compiler which like-clang, this is not need. because normal version is be punning optimized */
 
 #define hand_optimized_macro_ptr2uintptr(ptr_v) \
-	uintptr_macro_typechekcer( \
-		CASTING_FORM( \
-			uintptr_t, \
-			ptr_macro_typechecker(ptr_v) \
-		) \
-	)
+        uintptr_macro_typechekcer( \
+                CASTING_FORM( \
+                        uintptr_t, \
+                        ptr_macro_typechecker(ptr_v) \
+                ) \
+        )
 #define hand_optmized_macro_uintptr2ptr(uintptr_v) \
-	ptr_macro_typechecker( \
-		CASTING_FORM( \
-			ptr_t, \
-			uintptr_macro_typechecker(uintptr_v) \
-		) \
-	)
+        ptr_macro_typechecker( \
+                CASTING_FORM( \
+                        ptr_t, \
+                        uintptr_macro_typechecker(uintptr_v) \
+                ) \
+        )
 #define hand_optimized_macro_size2uintptr(size_v) \
-	uintptr_macro_typechecker( \
-		CASTING_FORM( \
-			uintptr_t \
-			size_macro_typechecker(size_v) \
-		) \
-	)
+        uintptr_macro_typechecker( \
+                CASTING_FORM( \
+                        uintptr_t \
+                        size_macro_typechecker(size_v) \
+                ) \
+        )
 #define hand_optimized_macro_uintptr2size(uintptr_v) \
-	size_macro_typechecker( \
-		CASTING_FORM( \
-			uintptr_v, \
-			uintptr_macro_typechecker(uintptr_v) \
-		) \
-	)
+        size_macro_typechecker( \
+                CASTING_FORM( \
+                        uintptr_v, \
+                        uintptr_macro_typechecker(uintptr_v) \
+                ) \
+        )
 
 #define hand_optimized_macro_ptr2size(ptr_v) \
-	hand_optimized_macro_uintptr2size( \
-	hand_optimized_macro_ptr2uintptr( \
-		ptr_v \
-	) \
-	)
+        hand_optimized_macro_uintptr2size( \
+        hand_optimized_macro_ptr2uintptr( \
+                ptr_v \
+        ) \
+        )
 #define hand_optimized_macro_size2ptr(size_v) \
-	hand_optimized_macro_uintptr2ptr( \
-	hand_optimized_macro_size2uintptr( \
-		ptr_v \
-	) \
-	)
+        hand_optimized_macro_uintptr2ptr( \
+        hand_optimized_macro_size2uintptr( \
+                ptr_v \
+        ) \
+        )
 
 inline_cast_defer(ptr_t, uintptr_t, hand_optimized_ptr2uintptr, hand_optimized_macro_ptr2uintptr)
 inline_cast_defer(uintptr_t, ptr_t, hand_optimized_uintptr2ptr, hand_optimized_macro_uintptr2ptr)
@@ -363,7 +363,60 @@ inline_cast_defer(size_t, ptr_t, hand_optimized_size2ptr, hand_optimized_macro_s
 #define hand_optimized_macro_addr2uintptr macro_addr2uintptr
 #define hand_optimized_macro_addr2size macro_addr2size
 
-inline_cast_defer(
+// the three RVO optimized functions
+#define hand_optimized_addr2ptr addr2ptr
+#define hand_optimized_addr2uintptr addr2uintptr
+#define hand_optimized_addr2size addr2size
+
+// the four RVO optimized functions (typechekcers)
+#define hand_optimized_addr_macro_typechecker addr_macro_typechecker
+#define hand_optimized_ptr_macro_typechecker ptr_macro_typechecker
+#define hand_optimized_uintptr_macro_typechecker uintptr_macro_typechecker
+#define hand_optimized_size_macro_typechecker size_macro_typechecker
+
+#define hand_optimized_addr_typechecker addr_typechecker
+#define hand_optimized_ptr_typechecker ptr_typechecker
+#define hand_optimized_uintptr_typechecker uintptr_typechecker
+#define hand_optimized_size_typechecker size_typechecker
+
+// other optimizible functions
+
+#define hand_optimized_macro_addr_ptr2uintptr_then_addr2uintptr(v) \
+	macro_addr2ptr( \
+	hand_optimized_macro_ptr2uintptr( \
+		v \
+	) \
+	)
+#define hand_optimized_macro_addr_uintptr2ptr_then_addr2uintptr(v) \
+	macro_addr2uintptr( \
+	hand_optimized_macro_uintptr2ptr( \
+		v \
+	) \
+	)
+#define hand_optimized_macro_addr_size2uintptr_then_addr2uintptr(v) \
+	macro_addr2size( \
+	hand_optimized_macro_size2uintptr( \
+		v \
+	) \
+	)
+#define hand_optimized_macro_addr_uintptr2size_then_addr2size(v) \
+	macro_addr2uintptr( \
+	hand_optimized_macro_uintptr2size( \
+		v \
+	) \
+	)
+#define hand_optimized_macro_addr_ptr2size_then_addr2size(v) \
+	macro_addr2ptr( \
+	hand_optimized_macro_ptr2size( \
+		v \
+	) \
+	)
+#define hand_optimized_macro_addr_size2ptr_then_addr2ptr(v) \
+	macro_addr2size( \
+	hand_optimized_macro_size2ptr( \
+		v \
+	) \
+	)
 
 #endif
 ```
@@ -384,10 +437,10 @@ const_char test[] = "rikaidekinaina\nsono hisuterikuna jouchou dobutsumitaide\nm
 
 int main(void)
 {
-	imm_str_t seijinkunshidearitai = (imm_str_t) &test;
-	uintptr_t num = ptr2uintptr(CASTING_FORM(void*, seijinkunshidearitai));
-	printf("%lu\n", num);
-	return 0;
+        imm_str_t seijinkunshidearitai = (imm_str_t) &test;
+        uintptr_t num = ptr2uintptr(CASTING_FORM(void*, seijinkunshidearitai));
+        printf("%lu\n", num);
+        return 0;
 }
 ```
 
@@ -396,180 +449,180 @@ int main(void)
 ### when O0
 
 ```x86asm
-	.file	"test.c"
-	.text
-	.globl	main                            # -- Begin function main
-	.p2align	4
-	.type	main,@function
+        .file        "test.c"
+        .text
+        .globl        main                            # -- Begin function main
+        .p2align        4
+        .type        main,@function
 main:                                   # @main
 # %bb.0:
-	pushq	%rbp
-	movq	%rsp, %rbp
-	subq	$48, %rsp
-	movl	$0, -28(%rbp)
-	leaq	test(%rip), %rax
-	movq	%rax, -40(%rbp)
-	movq	-40(%rbp), %rax
-	movq	%rax, -8(%rbp)
-	movq	-8(%rbp), %rax
-	movq	%rax, -24(%rbp)
-	movq	-24(%rbp), %rax
-	movq	%rax, -16(%rbp)
-	movq	-16(%rbp), %rax
-	movq	%rax, -48(%rbp)
-	movq	-48(%rbp), %rsi
-	leaq	.L.str(%rip), %rdi
-	movb	$0, %al
-	callq	printf@PLT
-	xorl	%eax, %eax
-	addq	$48, %rsp
-	popq	%rbp
-	retq
+        pushq        %rbp
+        movq        %rsp, %rbp
+        subq        $48, %rsp
+        movl        $0, -28(%rbp)
+        leaq        test(%rip), %rax
+        movq        %rax, -40(%rbp)
+        movq        -40(%rbp), %rax
+        movq        %rax, -8(%rbp)
+        movq        -8(%rbp), %rax
+        movq        %rax, -24(%rbp)
+        movq        -24(%rbp), %rax
+        movq        %rax, -16(%rbp)
+        movq        -16(%rbp), %rax
+        movq        %rax, -48(%rbp)
+        movq        -48(%rbp), %rsi
+        leaq        .L.str(%rip), %rdi
+        movb        $0, %al
+        callq        printf@PLT
+        xorl        %eax, %eax
+        addq        $48, %rsp
+        popq        %rbp
+        retq
 .Lfunc_end0:
-	.size	main, .Lfunc_end0-main
+        .size        main, .Lfunc_end0-main
                                         # -- End function
-	.type	test,@object                    # @test
-	.section	.rodata,"a",@progbits
-	.globl	test
-	.p2align	4, 0x0
+        .type        test,@object                    # @test
+        .section        .rodata,"a",@progbits
+        .globl        test
+        .p2align        4, 0x0
 test:
-	.asciz	"rikaidekinaina\nsono hisuterikuna jouchou dobutsumitaide\nmada ugokenaina\nhiyorimino messgage baketa meirono sue"
-	.size	test, 111
+        .asciz        "rikaidekinaina\nsono hisuterikuna jouchou dobutsumitaide\nmada ugokenaina\nhiyorimino messgage baketa meirono sue"
+        .size        test, 111
 
-	.type	.L.str,@object                  # @.str
-	.section	.rodata.str1.1,"aMS",@progbits,1
+        .type        .L.str,@object                  # @.str
+        .section        .rodata.str1.1,"aMS",@progbits,1
 .L.str:
-	.asciz	"%lu\n"
-	.size	.L.str, 5
+        .asciz        "%lu\n"
+        .size        .L.str, 5
 
-	.ident	"Ubuntu clang version 21.1.8 (6ubuntu1)"
-	.section	".note.GNU-stack","",@progbits
-	.addrsig
-	.addrsig_sym printf
-	.addrsig_sym test
+        .ident        "Ubuntu clang version 21.1.8 (6ubuntu1)"
+        .section        ".note.GNU-stack","",@progbits
+        .addrsig
+        .addrsig_sym printf
+        .addrsig_sym test
 ```
 
 ### when O1
 
 ```x86asm
-	.file	"test.c"
-	.text
-	.globl	main                            # -- Begin function main
-	.p2align	4
-	.type	main,@function
+        .file        "test.c"
+        .text
+        .globl        main                            # -- Begin function main
+        .p2align        4
+        .type        main,@function
 main:                                   # @main
 # %bb.0:
-	pushq	%rax
-	leaq	.L.str(%rip), %rdi
-	leaq	test(%rip), %rsi
-	xorl	%eax, %eax
-	callq	printf@PLT
-	xorl	%eax, %eax
-	popq	%rcx
-	retq
+        pushq        %rax
+        leaq        .L.str(%rip), %rdi
+        leaq        test(%rip), %rsi
+        xorl        %eax, %eax
+        callq        printf@PLT
+        xorl        %eax, %eax
+        popq        %rcx
+        retq
 .Lfunc_end0:
-	.size	main, .Lfunc_end0-main
+        .size        main, .Lfunc_end0-main
                                         # -- End function
-	.type	test,@object                    # @test
-	.section	.rodata,"a",@progbits
-	.globl	test
-	.p2align	4, 0x0
+        .type        test,@object                    # @test
+        .section        .rodata,"a",@progbits
+        .globl        test
+        .p2align        4, 0x0
 test:
-	.asciz	"rikaidekinaina\nsono hisuterikuna jouchou dobutsumitaide\nmada ugokenaina\nhiyorimino messgage baketa meirono sue"
-	.size	test, 111
+        .asciz        "rikaidekinaina\nsono hisuterikuna jouchou dobutsumitaide\nmada ugokenaina\nhiyorimino messgage baketa meirono sue"
+        .size        test, 111
 
-	.type	.L.str,@object                  # @.str
-	.section	.rodata.str1.1,"aMS",@progbits,1
+        .type        .L.str,@object                  # @.str
+        .section        .rodata.str1.1,"aMS",@progbits,1
 .L.str:
-	.asciz	"%lu\n"
-	.size	.L.str, 5
+        .asciz        "%lu\n"
+        .size        .L.str, 5
 
-	.ident	"Ubuntu clang version 21.1.8 (6ubuntu1)"
-	.section	".note.GNU-stack","",@progbits
-	.addrsig
-	.addrsig_sym test
+        .ident        "Ubuntu clang version 21.1.8 (6ubuntu1)"
+        .section        ".note.GNU-stack","",@progbits
+        .addrsig
+        .addrsig_sym test
 ```
 
 ### when O2
 
 ```x86asm
-	.file	"test.c"
-	.text
-	.globl	main                            # -- Begin function main
-	.p2align	4
-	.type	main,@function
+        .file        "test.c"
+        .text
+        .globl        main                            # -- Begin function main
+        .p2align        4
+        .type        main,@function
 main:                                   # @main
 # %bb.0:
-	pushq	%rax
-	leaq	.L.str(%rip), %rdi
-	leaq	test(%rip), %rsi
-	xorl	%eax, %eax
-	callq	printf@PLT
-	xorl	%eax, %eax
-	popq	%rcx
-	retq
+        pushq        %rax
+        leaq        .L.str(%rip), %rdi
+        leaq        test(%rip), %rsi
+        xorl        %eax, %eax
+        callq        printf@PLT
+        xorl        %eax, %eax
+        popq        %rcx
+        retq
 .Lfunc_end0:
-	.size	main, .Lfunc_end0-main
+        .size        main, .Lfunc_end0-main
                                         # -- End function
-	.type	test,@object                    # @test
-	.section	.rodata,"a",@progbits
-	.globl	test
-	.p2align	4, 0x0
+        .type        test,@object                    # @test
+        .section        .rodata,"a",@progbits
+        .globl        test
+        .p2align        4, 0x0
 test:
-	.asciz	"rikaidekinaina\nsono hisuterikuna jouchou dobutsumitaide\nmada ugokenaina\nhiyorimino messgage baketa meirono sue"
-	.size	test, 111
+        .asciz        "rikaidekinaina\nsono hisuterikuna jouchou dobutsumitaide\nmada ugokenaina\nhiyorimino messgage baketa meirono sue"
+        .size        test, 111
 
-	.type	.L.str,@object                  # @.str
-	.section	.rodata.str1.1,"aMS",@progbits,1
+        .type        .L.str,@object                  # @.str
+        .section        .rodata.str1.1,"aMS",@progbits,1
 .L.str:
-	.asciz	"%lu\n"
-	.size	.L.str, 5
+        .asciz        "%lu\n"
+        .size        .L.str, 5
 
-	.ident	"Ubuntu clang version 21.1.8 (6ubuntu1)"
-	.section	".note.GNU-stack","",@progbits
-	.addrsig
-	.addrsig_sym test
+        .ident        "Ubuntu clang version 21.1.8 (6ubuntu1)"
+        .section        ".note.GNU-stack","",@progbits
+        .addrsig
+        .addrsig_sym test
 ```
 
 ### when O3
 
 ```x86asm
-	.file	"test.c"
-	.text
-	.globl	main                            # -- Begin function main
-	.p2align	4
-	.type	main,@function
+        .file        "test.c"
+        .text
+        .globl        main                            # -- Begin function main
+        .p2align        4
+        .type        main,@function
 main:                                   # @main
 # %bb.0:
-	pushq	%rax
-	leaq	.L.str(%rip), %rdi
-	leaq	test(%rip), %rsi
-	xorl	%eax, %eax
-	callq	printf@PLT
-	xorl	%eax, %eax
-	popq	%rcx
-	retq
+        pushq        %rax
+        leaq        .L.str(%rip), %rdi
+        leaq        test(%rip), %rsi
+        xorl        %eax, %eax
+        callq        printf@PLT
+        xorl        %eax, %eax
+        popq        %rcx
+        retq
 .Lfunc_end0:
-	.size	main, .Lfunc_end0-main
+        .size        main, .Lfunc_end0-main
                                         # -- End function
-	.type	test,@object                    # @test
-	.section	.rodata,"a",@progbits
-	.globl	test
-	.p2align	4, 0x0
+        .type        test,@object                    # @test
+        .section        .rodata,"a",@progbits
+        .globl        test
+        .p2align        4, 0x0
 test:
-	.asciz	"rikaidekinaina\nsono hisuterikuna jouchou dobutsumitaide\nmada ugokenaina\nhiyorimino messgage baketa meirono sue"
-	.size	test, 111
+        .asciz        "rikaidekinaina\nsono hisuterikuna jouchou dobutsumitaide\nmada ugokenaina\nhiyorimino messgage baketa meirono sue"
+        .size        test, 111
 
-	.type	.L.str,@object                  # @.str
-	.section	.rodata.str1.1,"aMS",@progbits,1
+        .type        .L.str,@object                  # @.str
+        .section        .rodata.str1.1,"aMS",@progbits,1
 .L.str:
-	.asciz	"%lu\n"
-	.size	.L.str, 5
+        .asciz        "%lu\n"
+        .size        .L.str, 5
 
-	.ident	"Ubuntu clang version 21.1.8 (6ubuntu1)"
-	.section	".note.GNU-stack","",@progbits
-	.addrsig
-	.addrsig_sym test
+        .ident        "Ubuntu clang version 21.1.8 (6ubuntu1)"
+        .section        ".note.GNU-stack","",@progbits
+        .addrsig
+        .addrsig_sym test
 ```
 ````
 
